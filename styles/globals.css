@@ -4,7 +4,6 @@ body,
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  color: #3a3a3a;
   box-sizing: border-box;
 }
 
@@ -79,6 +78,7 @@ Tertiary Colors: #004442 and #3A3A3A | #D8D8D8
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 40px;
 }
 .navbar__middle ul {
   list-style-type: none;
@@ -138,7 +138,6 @@ Tertiary Colors: #004442 and #3A3A3A | #D8D8D8
   align-items: center;
   justify-content: center;
   background-color: #00bcb7;
-  color: white;
   border-radius: 5px;
   cursor: pointer;
   transform: scale(1, 1);
@@ -147,13 +146,15 @@ Tertiary Colors: #004442 and #3A3A3A | #D8D8D8
 .navbar__quote p {
   font-size: 12px;
   color: white;
+  position: relative;
+  top: 7px;
 }
 .navbar__quote:hover {
   transform: scale(1.1, 1.1);
 }
 .quote__icon {
-  margin-top: 5px;
   margin-right: 5px;
+  color: white;
 }
 /*NavBar Style End*/
 
@@ -199,7 +200,6 @@ Tertiary Colors: #004442 and #3A3A3A | #D8D8D8
   display: flex;
   flex-direction: column;
   left: 100px;
-  top: 79px;
   text-align: left;
   color: white;
   z-index: 4;
@@ -209,33 +209,32 @@ Tertiary Colors: #004442 and #3A3A3A | #D8D8D8
   max-width: 20ch;
   line-height: 60px;
   color: #ffffff;
-  /* text-shadow: 3px 5px 2px #006363; */
+  margin-bottom: 10px;
 }
 hr {
   width: 25%;
   height: 3px;
-  margin: 0px;
+  margin-bottom: 15px;
   text-align: left;
   border: none;
   background-color: #009991;
-  margin-top: -20px;
-  margin-bottom: 2px;
 }
 .slider__desc p {
   font-size: 25px;
   max-width: 40ch;
+  color: white;
+  margin-bottom: 20px;
 }
 .slider__buttons {
   display: flex;
   align-items: center;
 }
-.slider__desc button {
+button {
   border: none;
   cursor: pointer;
   border-radius: 8px;
   padding: 23px 15px;
   margin-right: 30px;
-  width: 25%;
   font-size: 15px;
   font-weight: bold;
 }
@@ -243,8 +242,8 @@ hr {
   display: flex;
   align-items: center;
   background-color: #009991;
+  width: 30%;
   color: white;
-  cursor: pointer;
 }
 .slider__btn__icon {
   position: relative;
@@ -258,6 +257,7 @@ hr {
   background-color: #d8d8d8;
   color: #009991;
   cursor: pointer;
+  width: 30%;
 }
 .slider__desc button:last-child:hover {
   background-color: #009991;
@@ -281,11 +281,12 @@ header p {
   color: #69cc40;
   font-weight: 600;
   font-size: 23px;
+  margin-bottom: 20px;
 }
 header h1 {
   color: #00bcb7;
   max-width: 25ch;
-  margin-top: -15px;
+  margin-bottom: 20px;
 }
 .whyus__row {
   display: flex;
@@ -356,6 +357,7 @@ header h1 {
   color: #69cc40;
   font-weight: 600;
   font-size: 40px;
+  margin-bottom: 20px;
 }
 .whysolar__title span {
   color: #d8d8d8;
@@ -401,6 +403,11 @@ header h1 {
   transform: rotate(360deg);
   background-color: #d8d8d8;
 }
+.whysolar__warranty__contaainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .whysolar__warranty {
   color: #d8d8d8;
   width: 50%;
@@ -413,21 +420,10 @@ header h1 {
   line-height: 25px;
 }
 .whysolar__warranty button {
-  border: none;
-  cursor: pointer;
-  border-radius: 8px;
-  padding: 23px 15px;
-  margin-right: 30px;
+  width: 40%;
+  margin-top: 20px;
   background-color: #004442;
   color: white;
-  width: 50%;
-  font-size: 15px;
-  font-weight: bold;
-}
-.whysolar__warranty__contaainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 /*Why Solar End*/
 
@@ -438,10 +434,11 @@ header h1 {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   opacity: 0.11;
   flex-direction: column;
+  box-sizing: border-box;
 }
 .commparent {
   position: relative;
@@ -449,11 +446,11 @@ header h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 .community__content {
   position: absolute;
-  top: -20px;
-  padding: 10px 100px;
+  padding: 0 100px;
 }
 .community__content article {
   display: flex;
@@ -461,14 +458,15 @@ header h1 {
   align-items: center;
   justify-content: center;
 }
+.community__content article h3 {
+  color: #00bcb7;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
 .community__content article h3 span {
   color: #69cc40;
   font-weight: 300;
-}
-.community__content article h3 {
-  color: #00bcb7;
-  font-size: 70px;
-  font-weight: 600;
 }
 .content {
   width: 100%;
@@ -476,22 +474,19 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #3A3A3A;
 }
 .content .left {
   width: 100%;
   flex: 1;
   margin-right: 50px;
-  color: #69cc40;
 }
 .content .left h4 {
   font-size: 30px;
-  border-bottom: 1px solid #69cc40;
-  padding-bottom: 10px;
-  width: 50%;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 .content .left p {
-  margin-top: -20px;
   font-size: 31px;
 }
 .content .right {
@@ -541,10 +536,10 @@ header h1 {
   align-items: center;
 }
 .footer__div .right {
-  flex: 1.6;
+  flex: 1.5;
   margin-left: 10px;
-  display: flex;  
-  justify-content: flex-end;
+  display: flex;
+  justify-content: space-between;  
   box-sizing: border-box;
   padding-top: 7%;
 }
@@ -610,13 +605,11 @@ header h1 {
 }
 /*Ipad Mini, Ipad, Ipad Air*/
 @media only screen and (max-width: 898px) {
-  .slider__desc {
-    top: -15px;
-  }
+ 
   .whyus__row {
     display: flex;
     flex-direction: column;   
-    align-items: start; 
+    align-items: flex-start; 
   }
   .whyus__stats p {
     max-width: 40ch;

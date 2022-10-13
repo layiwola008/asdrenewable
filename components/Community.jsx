@@ -17,6 +17,7 @@ const Community = () => {
               <Slide left>
                 <div className="left">
                   <h4>Off-Grid Power</h4>
+                  <hr />
                   <p>
                     We join forces with communities to create power to support
                     their localities.
