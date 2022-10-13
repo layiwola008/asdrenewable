@@ -1,0 +1,672 @@
+html,
+body, 
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #3a3a3a;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+/*
+Primary Colors: #00BCB7 and #69CC40
+Secondary Colors: #009991 | #006363 and #599E35 | #599E35
+Tertiary Colors: #004442 and #3A3A3A | #D8D8D8
+*/
+
+/*Tob Bar Style Start*/
+.topbar__container {
+  margin: 0 auto;
+  width: 94%;
+  display: flex;
+  align-items: center;
+  padding: 10px 40px 5px;
+  justify-content: space-between;
+  border-bottom: 0.5px #d8d8d8 solid;
+}
+.topbar__left {
+  display: flex;
+  color: #3a3a3a;
+}
+.topbar__item {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+.tobbar__icon {
+  margin: 5px 6px 0 0;
+}
+
+.topbar__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social__icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.social__icon:hover {
+  color: #69cc40;
+  cursor: pointer;
+}
+/*Tob Bar Style End*/
+
+/*NavBar Style Start*/
+.logo {
+  cursor: pointer;
+}
+.navbar__container {
+  margin: 0 auto;
+  width: 100%;
+  height: 95px;
+  display: flex;
+}
+.navbar__left {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px #d8d8d8 solid;
+}
+.navbar__middle {
+  flex: 4;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__middle ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.navbar__middle ul li {
+  margin-right: 20px;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  padding-bottom: 0;
+  transition: 0.8s all ease;
+}
+.navbar__middle ul li:hover {
+  color: #00bcb7;
+  border-bottom: 2px #00bcb7 solid;
+  padding-bottom: 10px;
+}
+.active {
+  color: #00bcb7;
+}
+.navbar__phone {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 19px;
+  /* background-color: #D8D8D8; */
+}
+.navbar__icon {
+  margin-top: 5px;
+  margin-right: 10px;
+  color: #009991;
+}
+.phone__number {
+  font-weight: 600;
+}
+.phone__number:hover {
+  color: #009991;
+}
+.navbar__right {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px #d8d8d8 solid;
+}
+.navbar__quote {
+  width: 70%;
+  height: 45px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00bcb7;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+.navbar__quote p {
+  font-size: 12px;
+  color: white;
+}
+.navbar__quote:hover {
+  transform: scale(1.1, 1.1);
+}
+.quote__icon {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+/*NavBar Style End*/
+
+/*Swiper Slider Start*/
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slider__container {
+  position: relative;
+  z-index: 1;
+}
+.slider__desc {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 100px;
+  top: 79px;
+  text-align: left;
+  color: white;
+  z-index: 4;
+}
+.slider__desc h2 {
+  font-size: 50px;
+  max-width: 20ch;
+  line-height: 60px;
+  color: #ffffff;
+  /* text-shadow: 3px 5px 2px #006363; */
+}
+hr {
+  width: 25%;
+  height: 3px;
+  margin: 0px;
+  text-align: left;
+  border: none;
+  background-color: #009991;
+  margin-top: -20px;
+  margin-bottom: 2px;
+}
+.slider__desc p {
+  font-size: 25px;
+  max-width: 40ch;
+}
+.slider__buttons {
+  display: flex;
+  align-items: center;
+}
+.slider__desc button {
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 23px 15px;
+  margin-right: 30px;
+  width: 25%;
+  font-size: 15px;
+  font-weight: bold;
+}
+.slider__desc button:first-child {
+  display: flex;
+  align-items: center;
+  background-color: #009991;
+  color: white;
+  cursor: pointer;
+}
+.slider__btn__icon {
+  position: relative;
+  top: 2px;
+  margin-right: 8px;
+}
+.slider__desc button:first-child:hover {
+  background-color: #3a3a3a;
+}
+.slider__desc button:last-child {
+  background-color: #d8d8d8;
+  color: #009991;
+  cursor: pointer;
+}
+.slider__desc button:last-child:hover {
+  background-color: #009991;
+  color: white;
+}
+/*Swiper Slider End*/
+
+/*Why Us Start*/
+.whyus__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 60px;
+}
+.whyus__header {
+  width: 100%;
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+header p {
+  color: #69cc40;
+  font-weight: 600;
+  font-size: 23px;
+}
+header h1 {
+  color: #00bcb7;
+  max-width: 25ch;
+  margin-top: -15px;
+}
+.whyus__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 100px;
+}
+.whyus__stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.whyus__stats div {
+  margin-bottom: 30px;
+}
+.whyus__stats span {
+  color: #69cc40;
+  font-size: 40px;
+  font-weight: 600;
+}
+.whyus__stats p {
+  font-weight: 600;
+  max-width: 17ch;
+  line-height: 25px;
+  margin-top: 2px;
+}
+.whyus__image {
+  border-radius: 30px;
+  flex: 2;
+  transform: scale(1, 1);
+  transition: all 0.5s ease;
+}
+.whyus__about {
+  flex: 2;
+  padding-left: 50px;
+}
+.whyus__about p {
+  line-height: 25px;
+}
+.whyus__about button {
+  border: none;
+  border-radius: 8px;
+  padding: 23px 15px;
+  margin-right: 30px;
+  background-color: #69cc40;
+  color: white;
+  width: 50%;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*Why Us End*/
+
+/*Why Solar Start*/
+.whysolar__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+  padding: 50px 100px;
+  box-sizing: border-box;
+  background: linear-gradient(to left, #004442, #00bcb7);
+}
+.whysolar__title h2 {
+  color: #69cc40;
+  font-weight: 600;
+  font-size: 40px;
+}
+.whysolar__title span {
+  color: #d8d8d8;
+  font-weight: 300;
+}
+.whysolar__article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.whysolar__article article {
+  background-color: #d8d8d8;
+  height: 240px;
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: #3a3a3a;
+  line-height: 25px;
+  transform: scale(1, 1);
+  transition: all 1s ease-in-out;
+}
+.whysolar__article article:hover {
+  transform: scale(1.1, 1.1);
+  background-color: #004442;
+  color: #d8d8d8;
+}
+.whysolar__article article span {
+  align-self: center;
+  text-align: center;
+  margin-top: -50px;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background-color: #006363;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease;
+}
+.whysolar__article article span:hover {
+  transform: rotate(360deg);
+  background-color: #d8d8d8;
+}
+.whysolar__warranty {
+  color: #d8d8d8;
+  width: 50%;
+  margin: 30px;
+  border: 1px solid #004442;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 20px;
+  border-radius: 15px;
+  line-height: 25px;
+}
+.whysolar__warranty button {
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 23px 15px;
+  margin-right: 30px;
+  background-color: #004442;
+  color: white;
+  width: 50%;
+  font-size: 15px;
+  font-weight: bold;
+}
+.whysolar__warranty__contaainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*Why Solar End*/
+
+/*Community Start*/
+.community__container {
+  background-image: url("../public/images/solar-for-community.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  opacity: 0.11;
+  flex-direction: column;
+}
+.commparent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.community__content {
+  position: absolute;
+  top: -20px;
+  padding: 10px 100px;
+}
+.community__content article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.community__content article h3 span {
+  color: #69cc40;
+  font-weight: 300;
+}
+.community__content article h3 {
+  color: #00bcb7;
+  font-size: 70px;
+  font-weight: 600;
+}
+.content {
+  width: 100%;
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .left {
+  width: 100%;
+  flex: 1;
+  margin-right: 50px;
+  color: #69cc40;
+}
+.content .left h4 {
+  font-size: 30px;
+  border-bottom: 1px solid #69cc40;
+  padding-bottom: 10px;
+  width: 50%;
+  font-weight: 600;
+}
+.content .left p {
+  margin-top: -20px;
+  font-size: 31px;
+}
+.content .right {
+  flex: 1;
+  margin-left: 50px;
+  padding-top: 110px;
+  font-weight: 600;
+  line-height: 25px;
+  font-size: 18px;
+}
+/*Community End*/
+
+/*Footer Start*/
+.footer__div {
+  width: 100%;
+  height: 65vh;
+  background-color: #D8D8D8;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 100px;
+  box-sizing: border-box;
+  color: #3A3A3A;
+  font-size: 14px;
+}
+.footer__div .left {
+  flex: 1;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.footer__div .left span {
+  margin-top: 0px;
+}
+.address {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  font-size: 18px;
+  margin-right: 6px;
+  position: relative;
+  top: -2px;
+}
+.phone {
+  display: flex;
+  align-items: center;
+}
+.footer__div .right {
+  flex: 1.6;
+  margin-left: 10px;
+  display: flex;  
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding-top: 7%;
+}
+.footer__div .right span ul {
+  list-style: none;
+}
+.footer__div .right span ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+/*Footer End*/
+
+
+
+
+/*HOMEPAGE MEDIA QUERIES*/
+
+/*IPAD PRO RESPONSIVENESS*/
+@media only screen and (max-width: 1110px) {
+  .navbar__middle ul li {
+    font-size: 12px;
+  }
+  .whyus__row {
+    justify-content: space-evenly;
+  }
+  .whyus__img {
+    margin-left: 30px;
+  }
+  .whyus__stats span {
+    font-size: 30px;
+  }
+  .whyus__stats p {
+    font-weight: normal;
+    max-width: 10ch;
+  }
+  .whyus__about span {
+    display: none;
+  }
+  .whyus__about p {
+    font-size: 15px;
+    max-width: 40ch;
+  }
+  .whyus__about button {
+    width: 80%;
+  }
+  .whysolar__article {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .whysolar__article article {
+    height: 100%;
+  }
+  .whysolar__warranty p {
+    font-size: 20px;
+  }
+  .community__container {
+    height: 50vh;
+  }
+  .footer__div {
+    height: 50vh;
+  }
+}
+/*Ipad Mini, Ipad, Ipad Air*/
+@media only screen and (max-width: 898px) {
+  .slider__desc {
+    top: -15px;
+  }
+  .whyus__row {
+    display: flex;
+    flex-direction: column;   
+    align-items: start; 
+  }
+  .whyus__stats p {
+    max-width: 40ch;
+    font-size: 19px;
+  }
+  .whyus__about p {
+    font-size: 19px;
+  }
+  .whysolar__article {
+    display: flex;
+    flex-direction: column;
+  }
+  .whysolar__warranty__contaainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .whysolar__warranty {
+    width: 85%;
+  }
+  .community__container {
+    height: 100vh;
+  }
+  .community__content article h3 {
+    font-size: 40px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    align-items: flex-start;
+  }
+  .content .right {
+    flex: 1;
+    margin-left: 0;
+    padding-top: 40px;
+  }
+  .footer__div {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__div .right {
+    margin-left: -20px;
+    position: relative;
+    top: -80px; 
+  }
+}
+/*Samsung Galaxy and others*/
+@media only screen and (max-width: 466px) {
+ .layout {
+  width: 640px;
+ }
+}
