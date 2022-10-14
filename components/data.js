@@ -38,7 +38,7 @@ export const slides = [
       header: "Why You Must Go Solar",
       paragraph:
         "Safeguard your home from the unstable power supply from the grid.",
-      fBtnText: "Buy Now",
+      fBtnText: "Go Solar Now",
       fBtnLinK: "#",
       sBtnText: "View Products",
       sBtnLink: "#",

@@ -15,7 +15,7 @@ const WhyUs = () => {
           <header>
             <p>Our Profile</p>
             <h1>
-            We Are Focused on Innovation Advancements Driving Maintainablevelopment
+            We Are Focused on Innovation Advancements Driving Maintainable Development
             </h1>
           </header>
         </div>

@@ -23,11 +23,13 @@ const Navbar = () => {
       </div>
       <div className="navbar__middle">
         <ul>
-          <Link href="/"><li className="active">Home</li></Link>
-          <Link href="/asd-solar/about"><li>About Us</li></Link>         
+          <Link href="/"><li className="active hide__mobile">Home</li></Link>
+          <Link href="/asd-solar/about"><li className="hide__mobile">About Us</li></Link>         
+          <li>Solutions</li>
           <li>Services</li>
+          <li>Products</li>
           <li>Partnership</li>
-          <li>Contact Us</li>
+          <li className="hide__mobile">Contact Us</li>
         </ul>
         <div className="navbar__phone">
           <span className="navbar__icon">
