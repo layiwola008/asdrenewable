@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Logo from "../public/images/asd-logo.png";
-import { HiLocationMarker } from "react-icons/hi";
+import { ImLocation2 } from "react-icons/im";
 import { FaHeadphonesAlt } from "react-icons/fa";
 
 const Footer = () => {
@@ -20,7 +20,7 @@ const Footer = () => {
         </span>
         <span className="address">
           <span className="icon">
-            <HiLocationMarker />
+            <ImLocation2 />
           </span>
           <p>Address: 35 Oran Street, Wuse Zone 1, 900281, Abuja.</p>
         </span>

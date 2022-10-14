@@ -1,14 +1,20 @@
+//Icons
 import SolarIcon from "../public/images/solar-icon.png";
 import SolarIconHarmless from "../public/images/solar-icon-harmless.png";
 import SolarIconCost from "../public/images/solar-icon-cost.png";
 
-
+//Slide Show Images
 import HowToUseSolar from "../public/images/how-to-use-solar.jpg";
 import HowSolarWorks from "../public/images/how-solar-works.jpg";
 import Whysolar from "../public/images/why-go-solar.jpg";
 import Slider01 from "../public/images/slider01.jpg";
 import Slider02 from "../public/images/slider02.jpg";
 import Slider03 from "../public/images/solar-partnership.jpg";
+
+//Forms Of Energy
+import bioMass from "../public/images/biomass.jpg";
+import hydroPower from "../public/images/hydro-power.jpg";
+import windEnergy from "../public/images/wind-energy.jpg";
 
 export const data = [
     {
@@ -19,13 +25,13 @@ export const data = [
     },
     {
         id: 2,
-        image: SolarIconHarmless,
+        image: SolarIconCost,
         title: "Rising Energy Cost",
         desc: "Sunlight-based energy furnishes you with free power saving you immense power costs on a month-to-month budget expense."
     },
     {
         id: 3,
-        image: SolarIconCost,
+        image: SolarIconHarmless,
         title: "Harmless Power",
         desc: "By adopting sun-based energy systems, you are making an eco-friendly home with zero emissions."
     },
@@ -98,4 +104,28 @@ export const slides = [
       sBtnText: "Explore Solutions",
       sBtnLink: "#",
     },
+  ];
+
+  export const energyForms = [
+    {
+      id: 1,
+      image: hydroPower,
+      header: "Hydro Power",
+      shorDesc: "With an installed generation capacity of 16,384MW and the ability to generate about 12,522MW of lectricity from existing power plants, Nigeria is...",
+      page: "/forms-of-energy/hydro-power-in-nigeria"
+    },
+    {
+      id: 2,
+      image: windEnergy,
+      header: "Wind Energy",
+      shorDesc: "One of the fastest growing renewable energy technologies is wind energy. Globally, wind energy installed capacity increased from 74GW to...",
+      page: "/forms-of-energy/wind-energy-in-nigeria"
+    },
+    {
+      id: 3,
+      image: bioMass,
+      header: "Biomass Energy",
+      shorDesc: 'Biomass energy, or "bioenergy," is energy from plants and plant-derived materials. Emerging technologies exist that help transform food crops...',
+      page: "/forms-of-energy/biomass-in-nigeria"
+    }
   ];

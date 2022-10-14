@@ -1,13 +1,11 @@
 import React from "react";
 
 import {
-  Topbar,
   Slider,
-  Navbar,
   Whysolar,
+  Energyforms,
   Whyus,
   Community,
-  Footer,
 } from "../components";
 
 const Home = () => {
@@ -18,6 +16,8 @@ const Home = () => {
       <Whyus />
 
       <Whysolar />
+
+      <Energyforms />
 
       <Community />
     </>

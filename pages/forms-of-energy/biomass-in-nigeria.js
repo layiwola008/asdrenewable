@@ -1,14 +1,14 @@
 import React from 'react'
 
-const About = () => {
+const BioMass = () => {
   return (
     <>
     <span>Image</span>
     <div className='page__wrapper'>
-      About Us 
+      Bio Mass
     </div>
     </>
   )
 }
 
-export default About;
+export default BioMass;
