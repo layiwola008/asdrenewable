@@ -3,6 +3,9 @@ import SolarIconHarmless from "../public/images/solar-icon-harmless.png";
 import SolarIconCost from "../public/images/solar-icon-cost.png";
 
 
+import HowToUseSolar from "../public/images/how-to-use-solar.jpg";
+import HowSolarWorks from "../public/images/how-solar-works.jpg";
+import Whysolar from "../public/images/why-go-solar.jpg";
 import Slider01 from "../public/images/slider01.jpg";
 import Slider02 from "../public/images/slider02.jpg";
 import Slider03 from "../public/images/solar-partnership.jpg";
@@ -31,6 +34,39 @@ export const data = [
 export const slides = [
     {
       id: 1,
+      image: Whysolar,
+      header: "Why You Must Go Solar",
+      paragraph:
+        "Safeguard your home from the unstable power supply from the grid.",
+      fBtnText: "Buy Now",
+      fBtnLinK: "#",
+      sBtnText: "View Products",
+      sBtnLink: "#",
+    },
+    {
+      id: 2,
+      image: HowSolarWorks,
+      header: "Solar Energy Storage",
+      paragraph:
+        "Learn how the solar energy system works to generate, store and supply you power 24/7.",
+      fBtnText: "Explore Now",
+      fBtnLinK: "#",
+      sBtnText: "Get A Solution",
+      sBtnLink: "#",
+    },
+    {
+      id: 3,
+      image: HowToUseSolar,
+      header: "How You Can Use",
+      paragraph:
+        "3 Ways to keep away from blackouts, drive your home and consume energy from your own storage.",
+      fBtnText: "Find Out Now",
+      fBtnLinK: "#",
+      sBtnText: "Buy Now",
+      sBtnLink: "#",
+    },
+    {
+      id: 4,
       image: Slider01,
       header: "Global Solutions Provider",
       paragraph:
@@ -41,7 +77,7 @@ export const slides = [
       sBtnLink: "#",
     },
     {
-      id: 2,
+      id: 5,
       image: Slider03,
       header: "Partnership",
       paragraph:
@@ -52,7 +88,7 @@ export const slides = [
       sBtnLink: "#",
     },
     {
-      id: 3,
+      id: 6,
       image: Slider02,
       header: "Bridging Power Gaps",
       paragraph:
