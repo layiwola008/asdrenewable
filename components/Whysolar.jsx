@@ -11,7 +11,7 @@ const Whysolar = () => {
   return (
     <div className="whysolar__container">
       <div className="whysolar__title">
-        <Slide right>
+        <Slide bottom>
           <h2>
             <span>Why Must You</span> Go Solar?
           </h2>
@@ -21,7 +21,7 @@ const Whysolar = () => {
       <div className="whysolar__article">
         {data.map((item) => (
           <article className="left" key={item.id}>
-            <Slide left>
+            <Slide bottom>
               <span>
                 <Image
                   src={item.image}

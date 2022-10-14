@@ -1,4 +1,5 @@
 import React from "react";
+import { Bounce } from "react-reveal";
 import Slide from "react-reveal/Slide";
 
 const Community = () => {
@@ -14,18 +15,21 @@ const Community = () => {
               </h3>
             </Slide>
             <div className="content">
-              <Slide left>
-                <div className="left">
+              <div className="left">
+                <Slide bottom>
                   <h4>Off-Grid Power</h4>
-                  <hr />
+                </Slide>
+                <hr />
+                <Bounce bottom>
                   <p>
                     We join forces with communities to create power to support
                     their localities.
                   </p>
-                </div>
-              </Slide>
-              <Slide right>
-                <div className="right">
+                </Bounce>
+              </div>
+
+              <div className="right">
+                <Slide bottom>
                   <p>
                     Rural communities that are out of grid connections owing to
                     their geographical locations do not need to worry going
@@ -34,8 +38,8 @@ const Community = () => {
                     community and ease their communal life with flexible payment
                     plans.
                   </p>
-                </div>
-              </Slide>
+                </Slide>
+              </div>
             </div>
           </article>
         </div>

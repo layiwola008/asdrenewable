@@ -22,7 +22,7 @@ const WhyUs = () => {
       </Slide>
       <div className="whyus__content">
         <div className="whyus__row">
-          <Slide left>
+          <Slide bottom>
             <div className="whyus__stats">
               <div>
                 <span>
@@ -59,7 +59,7 @@ const WhyUs = () => {
               />
             </div>
           </Slide>
-          <Slide right>
+          <Slide bottom>
             <div className="whyus__about">
               <span>
                 <Image

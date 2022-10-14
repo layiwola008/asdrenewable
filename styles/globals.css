@@ -519,6 +519,7 @@ header h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  box-sizing: border-box;
 }
 .energy__forms__container .header {
   display: flex;
