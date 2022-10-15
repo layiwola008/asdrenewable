@@ -10,5 +10,5 @@ const BioMass = () => {
     </>
   )
 }
-
+ 
 export default BioMass;

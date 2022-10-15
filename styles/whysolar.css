@@ -1,0 +1,129 @@
+/*Why Solar Start*/
+.whysolar__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+  padding: 50px 100px;
+  box-sizing: border-box;
+  background: linear-gradient(to left, #004442, #00bcb7);
+}
+.whysolar__title h2 {
+  color: #69cc40;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.whysolar__title span {
+  color: #d8d8d8;
+  font-weight: 300;
+}
+.whysolar__article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.whysolar__article article {
+  background-color: #d8d8d8;
+  height: 240px;
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: #3a3a3a;
+  line-height: 25px;
+  transform: scale(1, 1);
+  transition: all 2s ease-in-out;
+}
+.whysolar__article article:hover {
+  transform: scale(1.1, 1.1);
+  background-color: #004442;
+  color: #d8d8d8;
+}
+.whysolar__article article h3 {
+  margin: 15px 0;
+}
+.whysolar__article article span {
+  align-self: center;
+  text-align: center;
+  margin-top: -50px;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background-color: #006363;
+  transform: rotate(0deg);
+  transition: transform 3s ease;
+}
+.whysolar__article article span:hover {
+  transform: rotate(360deg);
+  background-color: #d8d8d8;
+}
+.whysolar__warranty__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.whysolar__warranty {
+  color: #d8d8d8;
+  width: 50%;
+  margin: 30px;
+  border: 1px solid #004442;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 20px;
+  border-radius: 15px;
+  line-height: 25px;
+}
+.whysolar__warranty button {
+  width: 40%;
+  margin-top: 20px;
+  background-color: #004442;
+  color: white;
+}
+/*Why Solar End*/
+
+/*IPAD PRO RESPONSIVENESS*/
+@media only screen and (max-width: 1110px) {
+  .whysolar__article {
+    display: flex;
+    flex-direction: column;
+    font-size: 27px;
+  }
+  .whysolar__article article {
+    height: 100%;
+    line-height: 35px;
+  }
+  .whysolar__article article h3 {
+    margin-bottom: 20px;
+  }
+  .whysolar__warranty p {
+    font-size: 20px;
+  }
+}
+/*Ipad Mini, Ipad, Ipad Air*/
+@media only screen and (max-width: 898px) {
+  .whysolar__article {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+  }
+  .whysolar__warranty__container {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+  }
+  .whysolar__warranty {
+    width: 85%;
+  }
+}
+/*Samsung Galaxy and others*/
+@media only screen and (max-width: 466px) {
+  .whysolar__warranty button {
+    width: 50%;
+  }
+}

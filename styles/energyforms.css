@@ -1,0 +1,151 @@
+/*Forms Of Renewable Energy Start*/
+.energy__forms__container {
+  padding: 100px;
+  height: 100%;
+  background-image: url("../public/images/asd-pattern-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.energy__forms__container .header {
+  display: flex;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+.energy__forms__container .header .left {
+  flex: 1;
+}
+.energy__forms__container .header .left h2 {
+  font-size: 60px;
+  width: 17ch;
+  padding-bottom: 40px;
+  color: #69cc40;
+}
+
+.energy__forms__container .header .right {
+  flex: 1;
+}
+.energy__forms__container .header .right p {
+  padding-bottom: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.energy__forms__container .header .right button {
+  background-color: #69cc40;
+  color: white;
+}
+.energy__forms__container .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.energy__forms__container .card {
+  height: 100%;
+  width: 100%;
+  background-color: #d8d8d8;
+  margin: 0 20px;
+  border-radius: 15px;
+  transform: scale(1, 1);
+  transition: all 3s ease-in-out;
+  box-sizing: border-box;
+}
+.energy__forms__container .card:hover {
+  transform: scale(1.1, 1.1);
+  background-color: #69cc40;
+}
+.card span {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card .details {
+  padding: 20px;
+  color: #3a3a3a;
+  transition: color 3s ease-in-out;
+  line-height: 25px;
+}
+.card .details:hover {
+  color: white;
+}
+.card .details h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.card button {
+  margin: 20px 0;
+  width: 55%;
+  background-color: #d8d8d8;
+  border: 2px solid #69cc40;
+  display: flex;
+  align-items: center;
+  color: #3a3a3a;
+}
+.read_more_icon {
+  margin: 5px 5px 0 0;
+}
+/*Forms Of Renewable Energy End*/
+
+/*IPAD PRO RESPONSIVENESS*/
+@media only screen and (max-width: 1110px) {
+  .energy__forms__container {
+    font-size: 30px;
+  }
+  .energy__forms__container .header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .energy__forms__container .header .right p {
+    line-height: 35px;
+  }
+  .energy__forms__container .header .right button {
+    width: 45%;
+    font-size: 25px;
+  }
+  .energy__forms__container .cards {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .energy__forms__container .card {
+    margin: 0 0 40px;
+    width: 66%;
+    align-self: flex-start;
+    font-size: 25px;
+  }
+  .card .details p {
+    line-height: 35px;
+  }
+  .card button {
+    width: 40%;
+    font-size: 20px;
+  }
+}
+/*Ipad Mini, Ipad, Ipad Air*/
+@media only screen and (max-width: 898px) {
+  .energy__forms__container .header .left h2 {
+    font-size: 40px;
+  }
+  .energy__forms__container .header .right button {
+    width: 65%;
+  }
+  .energy__forms__container .card {
+    width: 96%;
+  }
+}
+/*Samsung Galaxy and others*/
+@media only screen and (max-width: 466px) {
+  .energy__forms__container .header {
+    margin-bottom: 50pxllop;
+  }
+  .energy__forms__container .header .right button {
+    width: 85%;
+  }
+  .energy__forms__container .card {
+    width: 100%;
+  }
+  .card button {
+    width: 46%;
+  }
+}

@@ -15,7 +15,8 @@ const WhyUs = () => {
           <header>
             <p>Our Profile</p>
             <h1>
-            We Are Focused on Innovation Advancements Driving Maintainable Development
+              We Are Focused on Innovation Advancements Driving Maintainable
+              Development
             </h1>
           </header>
         </div>
@@ -40,7 +41,7 @@ const WhyUs = () => {
                 <span>
                   <CountUp end={13} />
                 </span>
-                <p>Awards Milestones Awarded To Us</p>
+                <p>Awards: Milestones Awarded To Us</p>
               </div>
             </div>
           </Slide>

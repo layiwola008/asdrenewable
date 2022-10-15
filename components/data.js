@@ -1,7 +1,14 @@
-//Icons
+//Image Icons
 import SolarIcon from "../public/images/solar-icon.png";
 import SolarIconHarmless from "../public/images/solar-icon-harmless.png";
 import SolarIconCost from "../public/images/solar-icon-cost.png";
+
+//React Icons
+import {GiSolarPower} from 'react-icons/gi';
+import {MdOutlineBusiness} from 'react-icons/md';
+import {CgCommunity} from 'react-icons/cg';
+import {GiCctvCamera} from 'react-icons/gi';
+import {GiFarmTractor} from 'react-icons/gi';
 
 //Slide Show Images
 import HowToUseSolar from "../public/images/how-to-use-solar.jpg";
@@ -129,3 +136,36 @@ export const slides = [
       page: "/forms-of-energy/biomass-in-nigeria"
     }
   ];
+
+  export const solutions = [
+    {
+      id: 1,
+      icon: GiSolarPower,
+      title: "Residential/Home Energy",
+      desc: "Our home energy solution is fashioned to keep your home lights on through any power outage so that you can increase self-consumption, grip independence and reduce your electricity bill."
+    },
+    {
+      id: 2,
+      icon: MdOutlineBusiness,
+      title: "Commercial and Industrial Energy",
+      desc: "Businesses require constant energy to ensure continuity and high productivity. We have developed a flexible business model energy solution to make it easier for you to transition to solar energy systems without breaking your bank account."
+    },
+    {
+      id: 3,
+      icon: CgCommunity,
+      title: "Community Mini Grid",
+      desc: "Rural communities that are out of grip connections owing to their geographical locations do not need to worry going forward. We partner with communities to help design, implement and generate local power to sustain their community and ease their communal life with flexible payment plans."
+    },
+    {
+      id: 4,
+      icon: GiFarmTractor,
+      title: "Farm Zone Energy – Solar pump, Lighting",
+      desc: "In order to guarantee food security and sufficiency farms need constant power supply to run efficiently at an affordable rate. Our Farm zone energy solutions provide easy entry and flexible plans to allow farmers to make the best ROI in renewable energy."
+    },
+    {
+      id: 5,
+      icon: GiCctvCamera,
+      title: "Security: Solar-Powered Surveillance Camera",
+      desc: "For effective surveillance and monitoring, powering CCTV has become imperative in today’s crime-prone world. Security agencies and experts greatly depend on video recordings for effective monitoring and crime prevention. Our secure power guarantees proper and adequate power supply to camera installations regardless of their location. "
+    },
+  ]

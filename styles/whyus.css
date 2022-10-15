@@ -1,0 +1,114 @@
+/*Why Us Start*/
+.whyus__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 60px;
+}
+.whyus__header {
+  width: 100%;
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+header p {
+  color: #69cc40;
+  font-weight: 600;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+header h1 {
+  color: #00bcb7;
+  max-width: 25ch;
+  margin-bottom: 20px;
+}
+.whyus__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 100px;
+}
+.whyus__stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.whyus__stats div {
+  margin-bottom: 30px;
+}
+.whyus__stats span {
+  color: #69cc40;
+  font-size: 40px;
+  font-weight: 600;
+}
+.whyus__stats p {
+  font-weight: 600;
+  max-width: 17ch;
+  line-height: 25px;
+  margin-top: 2px;
+}
+.whyus__image {
+  border-radius: 30px;
+  flex: 2;
+  transform: scale(1, 1);
+  transition: all 0.5s ease;
+}
+.whyus__about {
+  flex: 2;
+  padding-left: 50px;
+}
+.whyus__about p {
+  line-height: 25px;
+}
+.whyus__about button {
+  background-color: #69cc40;
+  color: white;
+  width: 50%;
+  margin-top: 20px;
+}
+/*Why Us End*/
+
+/*IPAD PRO RESPONSIVENESS*/
+@media only screen and (max-width: 1110px) {
+  .whyus__row {
+    justify-content: space-evenly;
+    font-size: 19px;
+  }
+  .whyus__img {
+    margin-bottom: 20px;
+  }
+  .whyus__stats span {
+    font-size: 30px;
+  }
+  .whyus__stats p {
+    font-weight: normal;
+    width: 15ch;
+  }
+  .whyus__about span {
+    display: none;
+  }
+  .whyus__about p {
+    width: 30ch;
+  }
+  .whyus__about button {
+    width: 80%;
+  }
+}
+/*Ipad Mini, Ipad, Ipad Air*/
+@media only screen and (max-width: 898px) {
+  .whyus__row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .whyus__stats p {
+    max-width: 40ch;
+    font-size: 19px;
+  }
+  .whyus__about {
+    padding-left: 0;
+  }
+  .whyus__about p {
+    font-size: 19px;
+  }
+}

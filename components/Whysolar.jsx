@@ -39,7 +39,7 @@ const Whysolar = () => {
         ))}
       </div>
 
-      <div className="whysolar__warranty__contaainer">
+      <div className="whysolar__warranty__container">
         <div className="whysolar__waranty__image">
           <Image
             src={SolarQuote}

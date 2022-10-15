@@ -40,8 +40,8 @@ const Energyforms = () => {
                 <Image
                   src={item.image}
                   alt="Image"
-                  width="350"
-                  height="200"
+                  width="550"
+                  height="300"
                   objectFit="cover"
                 />
               </Link>

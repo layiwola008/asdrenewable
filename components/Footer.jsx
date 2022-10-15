@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+
 import Logo from "../public/images/asd-logo.png";
 import { ImLocation2 } from "react-icons/im";
 import { FaHeadphonesAlt } from "react-icons/fa";
