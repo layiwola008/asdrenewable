@@ -19,7 +19,7 @@ import Slider02 from "../public/images/slider02.jpg";
 import Slider03 from "../public/images/solar-partnership.jpg";
 
 //Forms Of Energy
-import bioMass from "../public/images/biomass.jpg";
+import bioMass from "../public/images/biomass-energy.jpg";
 import hydroPower from "../public/images/hydro-power.jpg";
 import windEnergy from "../public/images/wind-energy.jpg";
 

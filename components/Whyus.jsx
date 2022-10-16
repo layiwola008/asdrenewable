@@ -33,7 +33,7 @@ const WhyUs = () => {
               </div>
               <div>
                 <span>
-                  <CountUp end={2564} />
+                  <CountUp end={1564} />
                 </span>
                 <p>Happy Customers Who Trusted Us</p>
               </div>

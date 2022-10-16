@@ -84,6 +84,16 @@
 .read_more_icon {
   margin: 5px 5px 0 0;
 }
+.post__page__container {
+  background-color: #3a3a3a;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 40px 0;
+  margin: 180px  0 70px 0;
+}
+.post__image__container {
+  margin-top: 40px;
+}
 /*Forms Of Renewable Energy End*/
 
 
