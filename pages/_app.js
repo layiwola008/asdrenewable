@@ -18,6 +18,9 @@ import "../styles/footer.css";
 //About Us Styles
 import "../styles/about.css";
 
+//Quote Page Styles
+import "../styles/quote.css";
+
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>

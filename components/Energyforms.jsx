@@ -25,7 +25,9 @@ const Energyforms = () => {
               ways for our clients so they can benefit from sustainable energy.
             </p>
           </Bounce>
+          <Link href="/asd-renewables/about#solutions">
             <button>Explore Our Solutions</button>
+          </Link>
         </div>
       </div>
 

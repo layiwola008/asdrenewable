@@ -6,6 +6,7 @@ import Slide from "react-reveal/Slide";
 
 import Whyus from "../public/images/solar-engineer-asd.jpg";
 import Leaf from "../public/images/solar-energy-icon-leaf.jpg";
+import Link from "next/link";
 
 const WhyUs = () => {
   return (
@@ -88,12 +89,14 @@ const WhyUs = () => {
                 We are committed to continuous technology innovations driving
                 sustainable growth and adapting to market trends.
               </p>
+              <Link href="/asd-renewables/about">
               <button>
                 <span className="slider__btn__icon">
                   <BsArrowRightCircleFill />
                 </span>
                 Learn More
               </button>
+              </Link>
             </div>
           </Slide>
         </div>

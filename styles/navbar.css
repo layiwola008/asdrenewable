@@ -119,6 +119,9 @@
   .navbar__container {
     top: 0;
   }
+  .navbar__left {
+    margin-left: -29px;
+  }
   .navbar__middle {
     display: none;
   }

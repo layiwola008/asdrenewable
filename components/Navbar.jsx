@@ -11,21 +11,28 @@ const Navbar = () => {
     <div className="navbar__container">
       <div className="navbar__left">
         <Link href="/">
-        <Image
-          src={Logo}
-          alt=""
-          width="200"
-          height="70"
-          objectFit="cover"
-          className="logo"
-        />
+          <Image
+            src={Logo}
+            alt=""
+            width="200"
+            height="70"
+            objectFit="cover"
+            className="logo"
+          />
         </Link>
       </div>
       <div className="navbar__middle">
         <ul>
-          <Link href="/"><li className="active hide__mobile">Home</li></Link>
-          <Link href="/asd-solar/about"><li className="hide__mobile">About Us</li></Link>         
-          <li>Solutions</li>
+          <Link href="/">
+            <li className="active hide__mobile">Home</li>
+          </Link>
+          <Link href="/asd-renewables/about">
+            <li className="hide__mobile">About Us</li>
+          </Link>
+          <Link href="/asd-renewables/about#solutions">
+            <li>Solutions</li>
+          </Link>
+
           <li>Services</li>
           <li>Products</li>
           <li>Partnership</li>
@@ -35,7 +42,7 @@ const Navbar = () => {
           <span className="navbar__icon">
             <BsTelephoneFill />
           </span>
-          <span className="phone__number">09084000487</span> 
+          <span className="phone__number">09084000487</span>
         </div>
       </div>
       <div className="navbar__right">
@@ -43,7 +50,9 @@ const Navbar = () => {
           <span className="quote__icon">
             <BsArrowRightCircleFill />
           </span>
-          <p>Get A Quote</p>
+          <Link href="/asd-renewables/quote">
+            <p>Get A Quote</p>
+          </Link>
         </div>
       </div>
     </div>

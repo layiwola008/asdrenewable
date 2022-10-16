@@ -6,6 +6,7 @@ import Bounce from "react-reveal/Bounce";
 import { data } from "./data";
 
 import SolarQuote from "../public/images/request-solar-quote.png";
+import Link from "next/link";
 
 const Whysolar = () => {
   return (
@@ -20,8 +21,8 @@ const Whysolar = () => {
 
       <div className="whysolar__article">
         {data.map((item) => (
-            <Slide bottom key={item.id}>
-          <article className="left">
+          <Slide bottom key={item.id}>
+            <article className="left">
               <span>
                 <Image
                   src={item.image}
@@ -32,10 +33,10 @@ const Whysolar = () => {
                   className="whysolar__icon"
                 />
               </span>
-            <h3>{item.title}</h3>
-            <p>{item.desc}</p>
-          </article>
-            </Slide>
+              <h3>{item.title}</h3>
+              <p>{item.desc}</p>
+            </article>
+          </Slide>
         ))}
       </div>
 
@@ -63,7 +64,9 @@ const Whysolar = () => {
                 years of trouble-free service.
               </p>
             </Bounce>
+            <Link href="/asd-renewables/quote">
               <button>Go Solar Now</button>
+            </Link>
           </article>
         </div>
       </div>

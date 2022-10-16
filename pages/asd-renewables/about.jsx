@@ -6,6 +6,7 @@ import aboutImage from "../../public/images/about-asd.png";
 import asdMan from "../../public/images/asd-man.jpg";
 
 import { solutions } from "../../components/data";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
           src={aboutImage}
           alt="Image"
           width="1370"
-          height="500"
+          height="400"
           objectFit="cover"
         />
         <h1>About ASD Renewables</h1>
@@ -84,7 +85,7 @@ const About = () => {
             </Slide>
           </div>
         </div>
-        <div className="about__solutions">
+        <div className="about__solutions" id="solutions">
           <div className="row">
             <div className="col__md">
               <Slide bottom>
@@ -115,7 +116,9 @@ const About = () => {
                     <div className="desc">
                       <h3>{solution.title}</h3>
                       <p>{solution.desc}</p>
-                      <button>Request A Quote</button>
+                      <Link href="/asd-renewables/quote">
+                        <button>Request A Quote</button>
+                      </Link>
                     </div>
                   </div>
                 </Slide>
