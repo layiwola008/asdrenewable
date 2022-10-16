@@ -119,6 +119,9 @@ button:hover {
 }
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
+  .slider__desc {
+    left: 40px;
+  }
   .slider__desc h2 {
     font-size: 30px;
     margin-bottom: 2px;

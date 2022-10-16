@@ -20,8 +20,8 @@ const Whysolar = () => {
 
       <div className="whysolar__article">
         {data.map((item) => (
-          <article className="left" key={item.id}>
-            <Slide bottom>
+            <Slide bottom key={item.id}>
+          <article className="left">
               <span>
                 <Image
                   src={item.image}
@@ -32,10 +32,10 @@ const Whysolar = () => {
                   className="whysolar__icon"
                 />
               </span>
-            </Slide>
             <h3>{item.title}</h3>
             <p>{item.desc}</p>
           </article>
+            </Slide>
         ))}
       </div>
 
@@ -63,9 +63,7 @@ const Whysolar = () => {
                 years of trouble-free service.
               </p>
             </Bounce>
-            <Bounce bottom>
               <button>Go Solar Now</button>
-            </Bounce>
           </article>
         </div>
       </div>

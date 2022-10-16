@@ -11,11 +11,11 @@ const Topbar = () => {
       <div className='topbar__left'>
         <div className='topbar__item'>
           <span className='tobbar__icon'><IoMdMail /></span>
-          <span>Email: contact@asdrenewables.com</span>          
+          <span> contact@asdrenewables.com</span>          
         </div>        
         <div className='topbar__item'>
           <span className='tobbar__icon'><GiTimeBomb /></span>
-          <span>Hours: Mon-Fri: 8am – 7pm</span>
+          <span> Mon-Fri: 8am – 7pm</span>
           
         </div>
       </div>

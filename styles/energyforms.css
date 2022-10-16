@@ -1,7 +1,7 @@
 /*Forms Of Renewable Energy Start*/
 .energy__forms__container {
-  padding: 100px;
   height: 100%;
+  margin: 60px 0;
   background-image: url("../public/images/asd-pattern-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -48,7 +48,7 @@
   margin: 0 20px;
   border-radius: 15px;
   transform: scale(1, 1);
-  transition: all 3s ease-in-out;
+  transition: all 0.4s ease-in-out;
   box-sizing: border-box;
 }
 .energy__forms__container .card:hover {
@@ -62,7 +62,7 @@
 .card .details {
   padding: 20px;
   color: #3a3a3a;
-  transition: color 3s ease-in-out;
+  transition: color 0.4s ease-in-out;
   line-height: 25px;
 }
 .card .details:hover {
@@ -85,6 +85,7 @@
   margin: 5px 5px 0 0;
 }
 /*Forms Of Renewable Energy End*/
+
 
 /*IPAD PRO RESPONSIVENESS*/
 @media only screen and (max-width: 1110px) {
@@ -110,7 +111,7 @@
   }
   .energy__forms__container .card {
     margin: 0 0 40px;
-    width: 66%;
+    width: 61%;
     align-self: flex-start;
     font-size: 25px;
   }
@@ -131,7 +132,7 @@
     width: 65%;
   }
   .energy__forms__container .card {
-    width: 96%;
+    width: 84.5%;
   }
 }
 /*Samsung Galaxy and others*/

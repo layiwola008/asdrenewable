@@ -20,10 +20,10 @@ body,
   margin: 20px 0;
 }
 
-/*Forms Of Energy Start*/
 .page__wrapper {
   padding: 0 100px;
 }
+/*Forms Of Energy Start*/
 .page__header {
   display: flex;
   flex-direction: column;
@@ -89,12 +89,18 @@ body,
     display: flex;
     flex-direction: column;
   }
+  .page__wrapper {
+    padding: 0 30px;
+  }
 }
 
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
   .layout {
     width: 640px;
+  }
+  .page__wrapper {
+    padding: 0 40px;
   }
 }
 

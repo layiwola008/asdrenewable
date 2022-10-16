@@ -10,7 +10,7 @@ import { energyForms } from "./data";
 
 const Energyforms = () => {
   return (
-    <div className="energy__forms__container">
+    <div className="energy__forms__container page__wrapper">
       <div className="header">
         <div className="left">
           <Bounce bottom>
@@ -25,47 +25,41 @@ const Energyforms = () => {
               ways for our clients so they can benefit from sustainable energy.
             </p>
           </Bounce>
-          <Bounce bottom>
             <button>Explore Our Solutions</button>
-          </Bounce>
         </div>
       </div>
 
       <div className="cards">
         {energyForms.map((item) => (
-          <div className="card" key={item.id}>
-            <Bounce bottom>
-            <span>
-              <Link href={item.page}>
-                <Image
-                  src={item.image}
-                  alt="Image"
-                  width="550"
-                  height="300"
-                  objectFit="cover"
-                />
-              </Link>
-            </span>
-            </Bounce>
-            <div className="details">
-              <Bounce bottom>
-              <Link href={item.page}>
-                <h3>{item.header}</h3>
-              </Link>
-              </Bounce>
-              <Bounce bottom>
-              <p>{item.shorDesc}</p>
-              </Bounce>
-              <Link href={item.page}>
-                <button>
-                  <span className="read_more_icon">
-                    <BsArrowRightCircleFill />
-                  </span>
-                  Read More
-                </button>
-              </Link>
+          <Bounce bottom>
+            <div className="card" key={item.id}>
+              <span>
+                <Link href={item.page}>
+                  <Image
+                    src={item.image}
+                    alt="Image"
+                    width="600"
+                    height="300"
+                    objectFit="cover"
+                  />
+                </Link>
+              </span>
+              <div className="details">
+                  <Link href={item.page}>
+                    <h3>{item.header}</h3>
+                  </Link>
+                  <p>{item.shorDesc}</p>
+                <Link href={item.page}>
+                  <button>
+                    <span className="read_more_icon">
+                      <BsArrowRightCircleFill />
+                    </span>
+                    Read More
+                  </button>
+                </Link>
+              </div>
             </div>
-          </div>
+          </Bounce>
         ))}
       </div>
     </div>

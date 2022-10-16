@@ -38,10 +38,10 @@
   color: #3a3a3a;
   line-height: 25px;
   transform: scale(1, 1);
-  transition: all 2s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .whysolar__article article:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.2, 1.2);
   background-color: #004442;
   color: #d8d8d8;
 }

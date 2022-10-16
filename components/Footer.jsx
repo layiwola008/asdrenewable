@@ -9,6 +9,7 @@ const Footer = () => {
   return (
     <div className="footer__div">
       <div className="left">
+      <p>Quick Contact</p>
         <span className="logo">
           <Image
             src={Logo}
@@ -23,38 +24,39 @@ const Footer = () => {
           <span className="icon">
             <ImLocation2 />
           </span>
-          <p>Address: 35 Oran Street, Wuse Zone 1, 900281, Abuja.</p>
+          <p>35 Oran Street, Wuse Zone 1, 900281, Abuja.</p>
         </span>
         <span className="phone">
           <span className="icon">
             <FaHeadphonesAlt />
           </span>
-          <p>Phone: 09084000487</p>
+          <p>09084000487</p>
           </span>
       </div>
       <div className="right">
         <span>
+          <p>Solutions & Products</p>
           <ul>
-            <li>Residential Solution</li>
-            <li>Industrial Solution</li>
-            <li>Farm Zone Energy</li>
+            <li>Residential</li>
+            <li>Industrial</li>
             <li>Security</li>
-            <li>Community Mini Grid</li>
-            <li>Renewables Products</li>
+            <li>Farm Zone Energy</li>
+            <li>Community Mini Grid</li>         
+            <li>How To Use</li>
           </ul>
         </span>
 
         <span>
+        <p>Company</p>
           <ul>
-            <li>Renewable Energy Types</li>
-            <li>How To Use</li>
-            <li>Our Company</li>
+            <li>About Us</li>
             <li>Our Partners</li>
             <li>Contact Us</li>
           </ul>
         </span>
 
         <span>
+        <p>Support</p>
           <ul>
             <li>FAQs</li>
             <li>Terms and Conditions</li>

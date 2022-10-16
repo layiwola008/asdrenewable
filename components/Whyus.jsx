@@ -9,7 +9,7 @@ import Leaf from "../public/images/solar-energy-icon-leaf.jpg";
 
 const WhyUs = () => {
   return (
-    <div className="whyus__container">
+    <div className="whyus__container page__wrapper">
       <Slide bottom>
         <div className="whyus__header">
           <header>
@@ -73,11 +73,16 @@ const WhyUs = () => {
                 />
               </span>
               <p>
-                ASD emerged as a global energy solution and distribution
-                provider, tapping into the opportunity presented in Nigeria's
-                energy and power shortage to deliver sustainable energy, storage
-                and consumption, including energy digitalization to power
-                industrial, residential, farm and remote areas of the country.
+                <strong>
+                  <em>
+                    ASD emerged as a global energy solution and distribution
+                    provider, tapping into the opportunity presented in
+                    Nigeria's energy and power shortage to deliver sustainable
+                    energy, storage and consumption, including energy
+                    digitalization to power industrial, residential, farm and
+                    remote areas of the country.
+                  </em>
+                </strong>
                 <br />
                 <br />
                 We are committed to continuous technology innovations driving

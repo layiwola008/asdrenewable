@@ -10,6 +10,9 @@
   padding: 40px 0;
   margin-bottom: 60px;
 }
+.about__solutions h2 {
+  line-height: 45px;
+}
 .solutions__header__desc {
   color: #d8d8d8;
 }
@@ -72,6 +75,9 @@
 }
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
+  .about__solutions {
+    
+  }
   .solution {
     width: 90%;
   }

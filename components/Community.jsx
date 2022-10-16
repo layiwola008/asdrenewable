@@ -7,7 +7,7 @@ const Community = () => {
     <>
       <div className="commparent">
         <div className="community__container"></div>
-        <div className="community__content">
+        <div className="community__content page__wrapper">
           <article>
             <Slide bottom>
               <h3>

@@ -20,13 +20,11 @@
   box-sizing: border-box;
 }
 .community__content {
-  position: absolute;
-  padding: 0 100px;
+  position: absolute; 
 }
 .community__content article {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 .community__content article h3 {
