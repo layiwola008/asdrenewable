@@ -151,7 +151,9 @@
     width: 60%;
   }
   .energy__forms__container .card {
-    width: 96%;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 40px;
   }
   .card button {
     width: 46%;

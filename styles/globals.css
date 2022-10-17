@@ -127,7 +127,7 @@ And centers content
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
   .layout {
-    width: 700px;
+    width: 740px;
   }
   .page__wrapper {
     padding: 0 40px;
