@@ -4,6 +4,7 @@ import React from "react";
 import Logo from "../public/images/asd-logo.png";
 import { ImLocation2 } from "react-icons/im";
 import { FaHeadphonesAlt } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -50,6 +51,8 @@ const Footer = () => {
         <p>Company</p>
           <ul>
             <li>About Us</li>
+            <Link href="/asd-renewables/services"><li>Services</li></Link>            
+            <li>Solutions</li>
             <li>Our Partners</li>
             <li>Contact Us</li>
           </ul>

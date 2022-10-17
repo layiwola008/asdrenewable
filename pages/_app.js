@@ -18,8 +18,14 @@ import "../styles/footer.css";
 //About Us Styles
 import "../styles/about.css";
 
+//Services Styles
+import "../styles/services.css";
+
 //Quote Page Styles
 import "../styles/quote.css";
+
+//Tabs Styles
+import "../styles/tabs.css";
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -33,8 +33,8 @@ const Energyforms = () => {
 
       <div className="cards">
         {energyForms.map((item) => (
-          <Bounce bottom>
-            <div className="card" key={item.id}>
+          <Bounce bottom key={item.id}>
+            <div className="card">
               <span>
                 <Link href={item.page}>
                   <Image
