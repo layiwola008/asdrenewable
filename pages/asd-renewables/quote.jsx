@@ -11,16 +11,16 @@ const quote = () => {
     }
   return (
     <>
-      {/* <span className="page__header">
+      <span className="page__header">
         <Image
           src={aboutImage}
           alt="Image"
-          width="1370"
+          width="900"
           height="400"
           objectFit="cover"
         />
         <h1>Request A Quote</h1>
-      </span> */}
+      </span>
       <div className="page__wrapper">
         <div className="col">
           <Slide bottom>
