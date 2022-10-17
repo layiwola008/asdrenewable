@@ -2,6 +2,8 @@
   width: 70%;
   padding: 0;
   margin-bottom: 40px;
+  background-color: #009991;
+  box-sizing: border-box;
 }
 .quote__desc {
   text-align: center;
@@ -19,48 +21,49 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
-form div {
+.form div {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
-form span {
+.form span {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
 }
-form span input {
-  width: 370px;
+.form span input {
   margin: -12px 20px 0 0;
   padding: 20px;
   background-color: #d8d8d8;
   border: none;
   border-radius: 10px;
 }
-form span input:focus {
+.form span input:focus {
   outline: none;
 }
-form span select {
+.form span select {
   margin: -12px 20px 0 0;
   padding: 20px;
   background-color: #d8d8d8;
   width: 767px;
   border-radius: 10px;
 }
-form span textarea {
+.form span textarea {
   margin: -12px 20px 0 0;
   padding: 10px;
   width: 767px;
   background-color: #d8d8d8;
   border-radius: 10px;
 }
-form span textarea:focus {
+.form span textarea:focus {
   outline: none;
 }
-form span label {
+.form span label {
   margin: 0 0;
 }
 .quote__form__container .button {
@@ -90,25 +93,25 @@ form span label {
 }
 /*Ipad Mini, Ipad, Ipad Air*/
 @media only screen and (max-width: 898px) {
-  form span input {
+  .form span input {
     width: 350px;
   }
-  form span select {
+  .form span select {
     width: 720px;
   }
-  form span textarea {
+  .form span textarea {
     width: 720px;
   }
 }
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
-  form span input {
+  .form span input {
     width: 360px;
   }
-  form span select {
+  .form span select {
     width: 360px;
   }
-  form span textarea {
+  .form span textarea {
     width: 360px;
   }
   .quote__form__container .button {
