@@ -139,7 +139,7 @@
     width: 65%;
   }
   .energy__forms__container .card {
-    width: 84.5%;
+    width: 80%;
   }
 }
 /*Samsung Galaxy and others*/
@@ -151,9 +151,9 @@
     width: 60%;
   }
   .energy__forms__container .card {
-    width: 100%;
+    width: 90%;
   }
   .card button {
-    width: 46%;
+    width: 43%;
   }
 }
