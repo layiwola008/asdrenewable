@@ -12,6 +12,7 @@
   bottom: 95px;
   z-index: 99;
   background-color: #d8d8d8;
+  box-sizing: border-box;
 }
 .navbar__left {
   flex: 1;
@@ -80,7 +81,7 @@
   border-left: 1px #d8d8d8 solid;
 }
 .navbar__quote {
-  width: 70%;
+  width: 60%;
   height: 45px;
   padding: 0 5px;
   display: flex;
