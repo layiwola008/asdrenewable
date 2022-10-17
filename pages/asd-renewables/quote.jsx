@@ -3,9 +3,6 @@ import React from "react";
 import Slide from "react-reveal/Slide";
 
 import aboutImage from "../../public/images/about-asd.png";
-import asdMan from "../../public/images/asd-man.jpg";
-
-import { solutions } from "../../components/data";
 
 const quote = () => {
 
@@ -14,7 +11,7 @@ const quote = () => {
     }
   return (
     <>
-      <span className="page__header">
+      {/* <span className="page__header">
         <Image
           src={aboutImage}
           alt="Image"
@@ -23,7 +20,7 @@ const quote = () => {
           objectFit="cover"
         />
         <h1>Request A Quote</h1>
-      </span>
+      </span> */}
       <div className="page__wrapper">
         <div className="col">
           <Slide bottom>

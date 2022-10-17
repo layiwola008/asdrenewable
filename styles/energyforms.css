@@ -58,6 +58,7 @@
 .card .details {
   padding: 20px;
   color: #3a3a3a;
+  transition: color 0.4s ease-in-out;
   line-height: 25px;
 }
 .card .details:hover {
@@ -138,8 +139,7 @@
     width: 65%;
   }
   .energy__forms__container .card {
-    width: 80%;
-    box-sizing: border-box;
+    width: 84.5%;
   }
 }
 /*Samsung Galaxy and others*/
@@ -151,11 +151,9 @@
     width: 60%;
   }
   .energy__forms__container .card {
-    width: 90%;
-    box-sizing: border-box;
-    margin: auto;
+    width: 100%;
   }
   .card button {
-    width: 43%;
+    width: 46%;
   }
 }
