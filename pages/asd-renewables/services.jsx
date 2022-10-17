@@ -1,38 +1,45 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import Slide from "react-reveal/Slide";
 
-import Gis from "../../components/services/gis";
-import Dmda from "../../components/services/dmda";
-import Dcm from "../../components/dcm";
+import Gis from "../../components/services/Gis";
+import Dmda from "../../components/services/Dmda";
+import Dcm from "../../components/services/Dcm";
+import Rsgd from "../../components/services/Rsgd";
 
-import aboutImage from "../../public/images/about-asd.png";
-import asdMan from "../../public/images/asd-man.jpg";
-
-import { solutions } from "../../components/data";
+import AsdServices from "../../public/images/asd-rewables-services.jpg";
 import Link from "next/link";
+
 
 const services = () => {
   const [tab, setTab] = useState(1);
 
+
+
+  // useEffect(() => {
+    
+  // }, [index]);
+
   const activateTab = (index) => {
     setTab(index);
-    console.log(index);
   };
 
   return (
     <>
       <span className="page__header">
         <Image
-          src={aboutImage}
+          src={AsdServices}
           alt="Image"
-          width="1370"
-          height="400"
+          width="1500"
+          height="500"
           objectFit="cover"
         />
         <h1>Our Services</h1>
       </span>
       <div className="page__wrapper">
+        <div className="col services__header">
+          <h2>Explore Our Services</h2>
+          <p>At ASD, we are positioned to deliver the best of the following services in the most effective ways for our clients:</p>
+        </div>
         {/*Div Tabs*/}
         <div className="box">
           <div className="tabs">
@@ -61,7 +68,7 @@ const services = () => {
               onClick={() => activateTab(4)}
               className={`${tab === 4 ? "tab active-tab" : "tab"}`}
             >
-              Tab 4
+              Remote Sensing
             </div>
           </div>
         </div>
@@ -74,8 +81,11 @@ const services = () => {
         <Gis tab={tab} />
         <Dmda tab={tab} />
         <Dcm tab={tab} />
+        <Rsgd tab={tab} />
 
-        
+        <Link href="/asd-renewables/contact">
+        <button>Contact Us</button>
+        </Link>
         </div>
       </div>
     </>

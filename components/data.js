@@ -17,6 +17,7 @@ import Whysolar from "../public/images/why-go-solar.jpg";
 import Slider01 from "../public/images/slider01.jpg";
 import Slider02 from "../public/images/slider02.jpg";
 import Slider03 from "../public/images/solar-partnership.jpg";
+import RemoteSensing from "../public/images/gis-rs-services.jpg";
 
 //Forms Of Energy
 import bioMass from "../public/images/biomass-energy.jpg";
@@ -80,6 +81,17 @@ export const slides = [
     },
     {
       id: 4,
+      image: RemoteSensing,
+      header: "GIS and RS Services",
+      paragraph:
+        "ASD Renewables undertakes and executes GIS and RS Geospatial Projects for clients of any size.",
+      fBtnText: "Explore Services",
+      fBtnLinK: "/asd-renewables/services",
+      sBtnText: "Contact Us",
+      sBtnLink: "/asd-renewables/contact",
+    },
+    {
+      id: 5,
       image: Slider01,
       header: "Global Solutions Provider",
       paragraph:
@@ -90,7 +102,7 @@ export const slides = [
       sBtnLink: "#",
     },
     {
-      id: 5,
+      id: 6,
       image: Slider03,
       header: "Partnership",
       paragraph:
@@ -101,7 +113,7 @@ export const slides = [
       sBtnLink: "#",
     },
     {
-      id: 6,
+      id: 7,
       image: Slider02,
       header: "Bridging Power Gaps",
       paragraph:

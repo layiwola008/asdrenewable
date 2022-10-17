@@ -42,7 +42,7 @@ const About = () => {
               <h2>Company Profile</h2>
             </Slide>
             <Slide bottom>
-              <p>
+              
                 <strong>
                   <em>
                     ASD emerged as a global energy solution and distribution
@@ -62,7 +62,6 @@ const About = () => {
                 reduce Nigeria's energy gap amid increasing energy growth and
                 demand.
                 <br />
-                <br />
                 We source best-designed and manufactured renewable energy
                 products such as solar panels, PV inverters, and energy backup
                 products creating smart energy management systems for homes,
@@ -72,18 +71,16 @@ const About = () => {
                 with different technologies including biomass, hydropower and
                 wind turbines.
                 <br />
-                <br />
                 We are committed to continuous technology innovations driving
                 sustainable growth and adapting to market trends to provide
                 customized products to our esteemed clients in different parts
                 of the globe.
                 <br />
-                <br />
                 With a combined team of experienced installers, we offer an
                 unrivalled service to our happy customers, supported with
                 outstanding warranties on our energy solutions and products,
                 giving the most ROI with ASD.
-              </p>
+              
             </Slide>
           </div>
         </div>

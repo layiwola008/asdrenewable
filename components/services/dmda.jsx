@@ -1,4 +1,7 @@
+import Image from "next/image";
 import React from "react";
+
+import DigitalMapping from "../../public/images/digital-mapping.jpg";
 
 const Dmda = ({ tab }) => {
   return (
@@ -12,7 +15,7 @@ const Dmda = ({ tab }) => {
           <h2 className="service__title">
             Digital Mapping and Data Acquisition
           </h2>
-          <p>
+          <article className="service__article">
             ASD provides comprehensive data acquisition in the most efficient
             manner for effective Inventories, maintenance procedures, quality
             control, documentation of state of construction planning and
@@ -24,9 +27,18 @@ const Dmda = ({ tab }) => {
             Our expertise covers a wide range of Asset Management Mapping
             including but not limited to Underground Utility Cable and Piping
             network, Streetlight, Road Furniture.
-          </p>
+          </article>
         </div>
-        <div className="col__md"></div>
+        <div className="col__md">
+          <Image
+            src={DigitalMapping}
+            alt="Image"
+            width="500"
+            height="500"
+            objectFit="cover"
+            className="image__style"
+          />
+        </div>
       </div>
     </div>
   );

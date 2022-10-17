@@ -54,7 +54,8 @@ const Footer = () => {
             <Link href="/asd-renewables/services"><li>Services</li></Link>            
             <li>Solutions</li>
             <li>Our Partners</li>
-            <li>Contact Us</li>
+            <Link href="/asd-renewables/contact"><li>Contact Us</li></Link>
+            
           </ul>
         </span>
 

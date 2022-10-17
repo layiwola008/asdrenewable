@@ -116,7 +116,7 @@
     top: 0;
   }
   .navbar__left {
-    margin-left: 0;
+    margin-left: -60px;
   }
   .navbar__middle {
     display: none;

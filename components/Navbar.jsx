@@ -36,7 +36,8 @@ const Navbar = () => {
           
           <li>Products</li>
           <li>Partnership</li>
-          <li className="hide__mobile">Contact Us</li>
+          <Link href="/asd-renewables/contact"><li className="hide__mobile">Contact Us</li></Link>
+          
         </ul>
         <div className="navbar__phone">
           <span className="navbar__icon">
