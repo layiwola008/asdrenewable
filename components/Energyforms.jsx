@@ -4,7 +4,6 @@ import React from "react";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import Bounce from "react-reveal/Bounce";
 
-import Whyus from "../public/images/solar-engineer-asd.jpg";
 
 import { energyForms } from "./data";
 

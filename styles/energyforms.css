@@ -145,7 +145,7 @@
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
   .energy__forms__container .header {
-    margin-bottom: 50pxllop;
+    margin-bottom: 50px;
   }
   .energy__forms__container .header .right button {
     width: 60%;
