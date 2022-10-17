@@ -98,4 +98,5 @@ const quote = () => {
   );
 };
 
+
 export default quote;

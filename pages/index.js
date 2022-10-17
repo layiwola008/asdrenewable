@@ -17,8 +17,6 @@ const Home = () => {
 
       <Whysolar />
 
-      <Energyforms />
-
      
     </>
   );
