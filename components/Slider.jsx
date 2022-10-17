@@ -47,7 +47,7 @@ export default function App() {
               <p>{slide.paragraph}</p>
 
               <div className="slider__buttons">
-                <Link href="/asd-solar/about">
+                <Link href={slide.fBtnLinK}>
                   <button>
                     <span className="slider__btn__icon">
                       <BsArrowRightCircleFill />
@@ -55,7 +55,7 @@ export default function App() {
                     {slide.fBtnText}
                   </button>
                 </Link>
-                <Link href="/products/something">
+                <Link href={slide.sBtnLink}>
                   <button>{slide.sBtnText}</button>
                 </Link>
               </div>

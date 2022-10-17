@@ -76,6 +76,7 @@ hr {
   background-color: #009991;
   width: 30%;
   color: white;
+  font-size: 15px;
 }
 .slider__btn__icon {
   position: relative;
@@ -90,6 +91,7 @@ hr {
   color: #009991;
   cursor: pointer;
   width: 30%;
+  font-size: 15px;
 }
 .slider__desc button:last-child:hover {
   background-color: #009991;

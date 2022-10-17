@@ -10,6 +10,7 @@ import Link from "next/link";
 
 const WhyUs = () => {
   return (
+    <>
     <div className="whyus__container page__wrapper">
       <Slide bottom>
         <div className="whyus__header">
@@ -102,6 +103,7 @@ const WhyUs = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

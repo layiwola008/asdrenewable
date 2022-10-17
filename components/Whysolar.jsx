@@ -10,6 +10,7 @@ import Link from "next/link";
 
 const Whysolar = () => {
   return (
+    <>
     <div className="whysolar__container">
       <div className="whysolar__title">
         <Slide bottom>
@@ -71,6 +72,7 @@ const Whysolar = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

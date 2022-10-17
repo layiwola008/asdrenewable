@@ -9,7 +9,7 @@ import bioMassEnergy from "../../public/images/biomass-energy.jpg";
 
 const BioMass = () => {
   return (
-    <>    
+    <>
       <div className="page__wrapper">
         <div className="post__page__container">
           <div className="row">
@@ -18,14 +18,16 @@ const BioMass = () => {
                 <h2>Biomass Energy</h2>
               </Slide>
               <div className="post__image__container">
-                <Image
-                  src={bioMassEnergy}
-                  alt="Image"
-                  width="300"
-                  height="300"
-                  objectFit="cover"
-                  className="image__style"
-                />
+                <Slide bottom>
+                  <Image
+                    src={bioMassEnergy}
+                    alt="Image"
+                    width="300"
+                    height="300"
+                    objectFit="cover"
+                    className="image__style"
+                  />
+                </Slide>
               </div>
             </div>
             <div className="col__md">

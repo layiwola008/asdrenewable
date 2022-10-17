@@ -26,6 +26,7 @@ const quote = () => {
       </span>
       <div className="page__wrapper">
         <div className="col">
+          <Slide bottom>
           <div className="quote__desc">
             <h2>Request a Quote</h2>
             <p>
@@ -33,6 +34,8 @@ const quote = () => {
               a quote(s) for your system.
             </p>
           </div>
+          </Slide>
+          <Slide bottom>
           <div className="quote__form__container">
             <div className="col">
               <form className="form" onSubmit={handleSubmit}>
@@ -88,6 +91,7 @@ const quote = () => {
               </form>
             </div>
           </div>
+          </Slide>
         </div>
       </div>
     </>

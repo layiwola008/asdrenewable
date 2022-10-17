@@ -15,15 +15,17 @@ const WindEnergy = () => {
                 <h2>Wind Energy</h2>
               </Slide>
               <div className="post__image__container">
-              <Image
-                src={windEnergy}
-                alt="Image"
-                width="300"
-                height="300"
-                objectFit="cover"
-                className="image__style"
-              />
-            </div>
+                <Slide bottom>
+                  <Image
+                    src={windEnergy}
+                    alt="Image"
+                    width="300"
+                    height="300"
+                    objectFit="cover"
+                    className="image__style"
+                  />
+                </Slide>
+              </div>
             </div>
             <div className="col__md">
               <Slide bottom>

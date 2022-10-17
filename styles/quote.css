@@ -79,7 +79,7 @@ form span label {
   transition: transform 0.5s ease;
 }
 .quote__form__container .button:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.01, 1.01);
 }
 
 /*IPAD PRO RESPONSIVENESS*/

@@ -16,7 +16,7 @@ button {
   border-radius: 8px;
   padding: 23px 15px;
   margin-right: 30px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
@@ -58,16 +58,16 @@ button:hover {
 /*Creates display flex column
 And centers content
 */
-.col {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 /*Creates a Row With Display Flex*/
 .row {
   display: flex;
   box-sizing: border-box;
   margin: 60px 0;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .col__md {
   flex: 1;
@@ -76,7 +76,7 @@ And centers content
 }
 .col__md h2 {
   font-size: 40px;
-  margin: 0 0 10px 0;
+  margin: 0 0 30px 0;
   color: #00bcb7;
 }
 /*Creates a Row With Display Flex End*/

@@ -2,10 +2,6 @@
 .energy__forms__container {
   height: 100%;
   margin: 60px 0;
-  background-image: url("../public/images/asd-pattern-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   box-sizing: border-box;
 }
 .energy__forms__container .header {
@@ -28,7 +24,7 @@
 }
 .energy__forms__container .header .right p {
   padding-bottom: 20px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 25px;
 }
 .energy__forms__container .header .right button {
@@ -80,6 +76,7 @@
   display: flex;
   align-items: center;
   color: #3a3a3a;
+  font-size: 15px;
 }
 .read_more_icon {
   margin: 5px 5px 0 0;
@@ -136,7 +133,7 @@
 /*Ipad Mini, Ipad, Ipad Air*/
 @media only screen and (max-width: 898px) {
   .energy__forms__container .header .left h2 {
-    font-size: 40px;
+    font-size: 60px;
   }
   .energy__forms__container .header .right button {
     width: 65%;
@@ -151,7 +148,7 @@
     margin-bottom: 50pxllop;
   }
   .energy__forms__container .header .right button {
-    width: 85%;
+    width: 60%;
   }
   .energy__forms__container .card {
     width: 100%;

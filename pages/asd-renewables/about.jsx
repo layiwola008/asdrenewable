@@ -25,14 +25,16 @@ const About = () => {
         <div className="row">
           <div className="col__md">
             <div>
-              <Image
-                src={asdMan}
-                alt="Image"
-                width="540"
-                height="830"
-                objectFit="cover"
-                className="image__style"
-              />
+              <Slide bottom>
+                <Image
+                  src={asdMan}
+                  alt="Image"
+                  width="540"
+                  height="830"
+                  objectFit="cover"
+                  className="image__style"
+                />
+              </Slide>
             </div>
           </div>
           <div className="col__md">
