@@ -13,7 +13,11 @@ const Home = () => {
     <>
       <Slider />
 
- 
+      <Whyus />
+
+      <Whysolar />
+
+     
     </>
   );
 };
