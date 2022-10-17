@@ -103,15 +103,15 @@ form span label {
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
   form span input {
-    width: 360px;
+    width: 420px;
   }
   form span select {
-    width: 360px;
+    width: 420px;
   }
   form span textarea {
-    width: 360px;
+    width: 420px;
   }
   .quote__form__container .button {
-    width: 88%;
+    width: 95%;
   }
 }
