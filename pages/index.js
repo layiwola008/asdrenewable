@@ -15,11 +15,7 @@ const Home = () => {
 
       <Whyus />
 
-      <Whysolar />
-
-      <Energyforms />
-
-      <Community />
+     
     </>
   );
 };
