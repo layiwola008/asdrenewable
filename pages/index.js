@@ -13,13 +13,7 @@ const Home = () => {
     <>
       <Slider />
 
-      <Whyus />
-
-      <Whysolar />
-
-      <Energyforms />
-
-      <Community />
+ 
     </>
   );
 };
