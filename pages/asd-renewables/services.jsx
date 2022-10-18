@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
-import Gis from "../../components/services/Gis";
-import Dmda from "../../components/services/Dmda";
-import Dcm from "../../components/services/Dcm";
-import Rsgd from "../../components/services/Rsgd";
+import Gis from "../../components/services/Gis.jsx";
+import Dmda from "../../components/services/Dmda.jsx";
+import Dcm from "../../components/services/Dcm.jsx";
+import Rsgd from "../../components/services/Rsgd.jsx";
 
 import AsdServices from "../../public/images/asd-rewables-services.jpg";
 import Link from "next/link";
