@@ -121,4 +121,9 @@
   .navbar__middle {
     display: none;
   }
+  .navbar__quote {
+    margin-left: 135px;
+    width: 50%;
+    font-size: 30px;
+  }
 }

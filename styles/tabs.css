@@ -93,7 +93,10 @@
     right: 35px;
     top: 20px;
 }
-
+.service__article {
+    font-size: 22px;
+    line-height: 30px;
+}
 
 /*IPAD PRO RESPONSIVENESS*/
 @media only screen and (max-width: 1110px) {
@@ -119,12 +122,16 @@
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
     .box {
-        width: 100%;
+        width: 70%;
         border-radius: 15px;
     }
     .tabs {
         display: flex;
         flex-direction: column;
+    }
+    .tab {
+        padding: 20px 0;
+        font-size: 30px;
     }
     .tab:first-of-type {
         border-top-left-radius: 15px;
