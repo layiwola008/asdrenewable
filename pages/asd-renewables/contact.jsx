@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
-import Gis from "../../components/services/Gis";
-import Dmda from "../../components/services/Dmda";
-import Dcm from "../../components/services/Dcm";
-import Rsgd from "../../components/services/Rsgd";
-
 import AsdServices from "../../public/images/asd-rewables-services.jpg";
 
 
