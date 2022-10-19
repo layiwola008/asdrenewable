@@ -5,6 +5,7 @@ import { BsArrowRightCircleFill } from "react-icons/bs";
 import Slide from "react-reveal/Slide";
 
 import Whyus from "../public/images/solar-engineer-asd.jpg";
+import WhyusImage from "../public/images/why-us-asd-renewables-02.jpg";
 import Leaf from "../public/images/solar-energy-icon-leaf.jpg";
 import Link from "next/link";
 
@@ -53,7 +54,7 @@ const WhyUs = () => {
               style={{ borderRadius: "10px", overflow: "hidden" }}
             >
               <Image
-                src={Whyus}
+                src={WhyusImage}
                 alt="Image"
                 width="430"
                 height="430"

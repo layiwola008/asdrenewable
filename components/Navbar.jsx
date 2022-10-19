@@ -33,8 +33,8 @@ const Navbar = () => {
             <li>Solutions</li>
           </Link>
           <Link href="/asd-renewables/services"><li>Services</li></Link>
-          
-          <li>Products</li>
+          <Link href="/products"><li>Products</li></Link>
+         
           <li>Partnership</li>
           <Link href="/asd-renewables/contact"><li className="hide__mobile">Contact Us</li></Link>
           

@@ -35,6 +35,7 @@
     font-weight: 600;
 }
 
+
 .active-tab::after {
     border-top: 2px solid #006363;
     content: '';
@@ -97,6 +98,51 @@
     font-size: 22px;
     line-height: 30px;
 }
+
+/*Special styles for the vertical Tabs*/
+.tab__contents__vertical {
+    position: relative;
+    height: 100vh;
+    padding-top: 60px;
+}
+.tabs__vertical {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tab__vertical {
+    width: 90%;
+    background: #D8D8D8;
+    flex: 1;
+    font-size: 18px;
+    padding: 3px 0 0 15px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    text-align: left;
+    border: 1px solid #D8D8D8;
+    color: #004442;
+    cursor: pointer;
+    position: relative;
+}
+.active-tab-vertical {
+    background: #006363;
+    color: #D8D8D8;
+    font-weight: 600;
+}
+.icon__veritical {
+    font-size: 17px;
+    margin-right: 6px;
+    position: relative;
+    top: 1px;
+  }
+
+
+
+
+
+
+
 
 /*IPAD PRO RESPONSIVENESS*/
 @media only screen and (max-width: 1110px) {

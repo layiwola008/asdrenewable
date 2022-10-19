@@ -25,7 +25,7 @@ const Energyforms = () => {
             </p>
           </Bounce>
           <Link href="/asd-renewables/about#solutions">
-            <button>Explore Our Solutions</button>
+            <button>Explore Solutions</button>
           </Link>
         </div>
       </div>

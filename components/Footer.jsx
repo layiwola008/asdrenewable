@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       <div className="right">
         <span>
-          <p>Solutions & Products</p>
+          <p>Solutions</p>
           <ul>
             <li>Residential</li>
             <li>Industrial</li>
@@ -52,7 +52,7 @@ const Footer = () => {
           <ul>
             <li>About Us</li>
             <Link href="/asd-renewables/services"><li>Services</li></Link>            
-            <li>Solutions</li>
+            <Link href="/products"><li>Products</li></Link>            
             <li>Our Partners</li>
             <Link href="/asd-renewables/contact"><li>Contact Us</li></Link>
             
