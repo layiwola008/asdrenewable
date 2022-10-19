@@ -53,9 +53,9 @@ export const slides = [
       paragraph:
         "Safeguard your home from the unstable power supply from the grid.",
       fBtnText: "Go Solar Now",
-      fBtnLinK: "#",
+      fBtnLinK: "asd-renewables/quote",
       sBtnText: "View Products",
-      sBtnLink: "#",
+      sBtnLink: "/products",
     },
     {
       id: 2,

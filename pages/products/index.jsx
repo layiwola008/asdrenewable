@@ -6,7 +6,6 @@ import {BsFillArrowRightCircleFill} from 'react-icons/bs';
 
 import AsdServices from "../../public/images/asd-rewables-services.jpg";
 
-import GisImage from "../../public/images/gis.jpg";
 import SolarBattery from "../../public/images/products/solar-battery.png";
 import SolarPannels from "../../public/images/products/solar-pannels.png";
 import Combiner from "../../public/images/products/panel-combiner.png";
@@ -54,7 +53,7 @@ const products = () => {
       <div className="full__container">
         <div className="row">
           <div className="col__md">
-            <div className="box">
+            <div className="box__vertical">
               <div className="tabs__vertical">
                 <div
                   onClick={() => activateTab(1)}
@@ -211,14 +210,14 @@ const products = () => {
                     : "tab__content"
                 }`}
               >
-                <h2>Solar Panels</h2>
+                <h2 className="service__title">Solar Panels</h2>
                 <Image
                   src={SolarPannels}
                   alt="Image"
-                  width="500"
-                  height="500"
+                  width="300"
+                  height="300"
                   objectFit="cover"
-                  className="image__style"
+                  className="image__style product"
                 />
               </div>
               <div
@@ -228,14 +227,14 @@ const products = () => {
                     : "tab__content"
                 }`}
               >
-                <h2>Batteries</h2>
+                <h2 className="service__title">Batteries</h2>
                 <Image
                   src={SolarBattery}
                   alt="Image"
-                  width="500"
-                  height="500"
+                  width="300"
+                  height="300"
                   objectFit="cover"
-                  className="image__style"
+                  className="image__style product"
                 />
               </div>
               <div
@@ -245,14 +244,14 @@ const products = () => {
                     : "tab__content"
                 }`}
               >
-                <h2>Panel Combiners</h2>
+                <h2 className="service__title">Panel Combiners</h2>
                 <Image
                   src={Combiner}
                   alt="Image"
-                  width="500"
-                  height="500"
+                  width="300"
+                  height="300"
                   objectFit="cover"
-                  className="image__style"
+                  className="image__style product"
                 />
               </div>
 
@@ -263,14 +262,14 @@ const products = () => {
                     : "tab__content"
                 }`}
               >
-                <h2>Charge Controller</h2>
+                <h2 className="service__title">Charge Controller</h2>
                 <Image
                   src={Controller}
                   alt="Image"
-                  width="500"
-                  height="500"
+                  width="300"
+                  height="300"
                   objectFit="cover"
-                  className="image__style"
+                  className="image__style product"
                 />
               </div>
 
@@ -281,14 +280,14 @@ const products = () => {
                     : "tab__content"
                 }`}
               >
-                <h2>Surge Protector</h2>
+                <h2 className="service__title">Surge Protector</h2>
                 <Image
-                  src={GisImage}
+                  src={SolarPannels}
                   alt="Image"
-                  width="500"
-                  height="500"
+                  width="300"
+                  height="300"
                   objectFit="cover"
-                  className="image__style"
+                  className="image__style product"
                 />
               </div>
 
@@ -299,14 +298,14 @@ const products = () => {
                     : "tab__content"
                 }`}
               >
-                <h2>AVR</h2>
+                <h2 className="service__title">AVR</h2>
                 <Image
-                  src={GisImage}
+                  src={SolarPannels}
                   alt="Image"
-                  width="500"
-                  height="500"
+                  width="300"
+                  height="300"
                   objectFit="cover"
-                  className="image__style"
+                  className="image__style product"
                 />
               </div>
 
@@ -317,14 +316,14 @@ const products = () => {
                     : "tab__content"
                 }`}
               >
-                <h2>Inverters</h2>
+                <h2 className="service__title">Inverters</h2>
                 <Image
                   src={Inverter}
                   alt="Image"
-                  width="500"
-                  height="500"
+                  width="300"
+                  height="300"
                   objectFit="cover"
-                  className="image__style"
+                  className="image__style product"
                 />
               </div>
 
@@ -335,14 +334,14 @@ const products = () => {
                     : "tab__content"
                 }`}
               >
-                <h2>Solar Panel Mounting Rail</h2>
+                <h2 className="service__title">Solar Panel Mounting Rail</h2>
                 <Image
                   src={Rail}
                   alt="Image"
-                  width="500"
-                  height="500"
+                  width="300"
+                  height="300"
                   objectFit="cover"
-                  className="image__style"
+                  className="image__style product"
                 />
               </div>
 
@@ -353,14 +352,14 @@ const products = () => {
                     : "tab__content"
                 }`}
               >
-                <h2>Solar Connectors</h2>
+                <h2 className="service__title">Solar Connectors</h2>
                 <Image
-                  src={GisImage}
+                  src={SolarPannels}
                   alt="Image"
-                  width="500"
-                  height="500"
+                  width="300"
+                  height="300"
                   objectFit="cover"
-                  className="image__style"
+                  className="image__style product"
                 />
               </div>
 
@@ -371,14 +370,14 @@ const products = () => {
                     : "tab__content"
                 }`}
               >
-                <h2>Battery Rack</h2>
+                <h2 className="service__title">Battery Rack</h2>
                 <Image
                   src={Rack}
                   alt="Image"
-                  width="500"
-                  height="500"
+                  width="300"
+                  height="300"
                   objectFit="cover"
-                  className="image__style"
+                  className="image__style product"
                 />
               </div>
             </div>
