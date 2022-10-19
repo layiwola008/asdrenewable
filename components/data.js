@@ -63,10 +63,10 @@ export const slides = [
       header: "Solar Energy Storage",
       paragraph:
         "Learn how the solar energy system works to generate, store and supply you power 24/7.",
-      fBtnText: "Explore Now",
-      fBtnLinK: "#",
+      fBtnText: "Read More",
+      fBtnLinK: "/how-solar-energy-works",
       sBtnText: "Get A Solution",
-      sBtnLink: "#",
+      sBtnLink: "/asd-renewables/about#solutions",
     },
     {
       id: 3,
