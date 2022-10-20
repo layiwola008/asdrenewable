@@ -76,7 +76,7 @@ export const slides = [
         "3 Ways to keep away from blackouts, drive your home and consume energy from your own storage.",
       fBtnText: "Find Out Now",
       fBtnLinK: "/how-to-use",
-      sBtnText: "Buy Now",
+      sBtnText: "Get A Product",
       sBtnLink: "/products",
     },
     {

@@ -15,17 +15,21 @@ import "../styles/energyforms.css";
 import "../styles/community.css";
 import "../styles/footer.css";
 
+//Tabs Styles
+import "../styles/tabs.css";
+
 //About Us Styles
 import "../styles/about.css";
 
 //Services Styles
 import "../styles/services.css";
 
+//How To Use Styles
+import "../styles/how-to-use.css";
+
 //Quote Page Styles
 import "../styles/quote.css";
 
-//Tabs Styles
-import "../styles/tabs.css";
 
 function MyApp({ Component, pageProps }) {
   return (

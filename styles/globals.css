@@ -68,16 +68,16 @@ button:hover {
 /*Creates display flex column
 And centers content
 */
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /*Creates a Row With Display Flex*/
 .row {
   display: flex;
   box-sizing: border-box;
   margin: 60px 0;
-}
-.col {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .col__md {
   flex: 1;
