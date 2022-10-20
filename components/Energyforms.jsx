@@ -4,7 +4,6 @@ import React from "react";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import Bounce from "react-reveal/Bounce";
 
-
 import { energyForms } from "./data";
 
 const Energyforms = () => {
@@ -16,18 +15,19 @@ const Energyforms = () => {
             <h2>Major Forms of Renewable Energy</h2>
           </Bounce>
         </div>
-        <div className="right">
-          <Bounce bottom>
+
+        <Bounce bottom>
+          <div className="right">
             <p>
               At ASD, our group is situated to convey the best and shrewd
               sustainable energy ecosystem in the most creative and productive
               ways for our clients so they can benefit from sustainable energy.
             </p>
-          </Bounce>
-          <Link href="/asd-renewables/about#solutions">
-            <button>Explore Solutions</button>
-          </Link>
-        </div>
+            <Link href="/asd-renewables/about#solutions">
+              <button>Explore Solutions</button>
+            </Link>
+          </div>
+        </Bounce>
       </div>
 
       <div className="cards">
@@ -46,10 +46,10 @@ const Energyforms = () => {
                 </Link>
               </span>
               <div className="details">
-                  <Link href={item.page}>
-                    <h3>{item.header}</h3>
-                  </Link>
-                  <p>{item.shorDesc}</p>
+                <Link href={item.page}>
+                  <h3>{item.header}</h3>
+                </Link>
+                <p>{item.shorDesc}</p>
                 <Link href={item.page}>
                   <button>
                     <span className="read_more_icon">

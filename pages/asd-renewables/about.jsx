@@ -3,7 +3,7 @@ import Image from "next/image";
 import Slide from "react-reveal/Slide";
 
 import aboutImage from "../../public/images/about-asd.png";
-import asdMan from "../../public/images/asd-man.jpg";
+import asdMan from "../../public/images/about-us-asd-renewables.jpg";
 
 import { solutions } from "../../components/data";
 import Link from "next/link";
@@ -29,8 +29,8 @@ const About = () => {
                 <Image
                   src={asdMan}
                   alt="Image"
-                  width="540"
-                  height="830"
+                  width="1000"
+                  height="500"
                   objectFit="cover"
                   className="image__style"
                 />

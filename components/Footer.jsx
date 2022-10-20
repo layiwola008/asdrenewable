@@ -10,17 +10,19 @@ const Footer = () => {
   return (
     <div className="footer__div">
       <div className="left">
-      <p>Quick Contact</p>
-        <span className="logo">
-          <Image
-            src={Logo}
-            alt="ASD Renewables"
-            width="200"
-            height="70"
-            objectFit="cover"
-            className="logo"
-          />
-        </span>
+        <p>Quick Contact</p>
+        <Link href="/">
+          <span className="logo">
+            <Image
+              src={Logo}
+              alt="ASD Renewables"
+              width="200"
+              height="70"
+              objectFit="cover"
+              className="logo"
+            />
+          </span>
+        </Link>
         <span className="address">
           <span className="icon">
             <ImLocation2 />
@@ -32,7 +34,7 @@ const Footer = () => {
             <FaHeadphonesAlt />
           </span>
           <p>09084000487</p>
-          </span>
+        </span>
       </div>
       <div className="right">
         <span>
@@ -42,28 +44,43 @@ const Footer = () => {
             <li>Industrial</li>
             <li>Security</li>
             <li>Farm Zone Energy</li>
-            <li>Community Mini Grid</li>         
-            <li>How To Use</li>
+            <li>Community Mini Grid</li>
+            <Link href="/how-solar-energy-works">
+              <li>How It Works</li>
+            </Link>
+            <Link href="/how-to-use">
+              <li>How To Use</li>
+            </Link>
           </ul>
         </span>
 
         <span>
-        <p>Company</p>
+          <p>Company</p>
           <ul>
-            <li>About Us</li>
-            <Link href="/asd-renewables/services"><li>Services</li></Link>            
-            <Link href="/products"><li>Products</li></Link>            
+            <Link href="/asd-renewables/about">
+              <li>About Us</li>
+            </Link>
+
+            <Link href="/asd-renewables/services">
+              <li>Services</li>
+            </Link>
+            <Link href="/products">
+              <li>Products</li>
+            </Link>
             <li>Our Partners</li>
-            <Link href="/asd-renewables/contact"><li>Contact Us</li></Link>
-            
           </ul>
         </span>
 
         <span>
-        <p>Support</p>
+          <p>Support</p>
           <ul>
-            <li>FAQs</li>
-            <li>Terms and Conditions</li>
+            <Link href="/faq">
+              <li>FAQs</li>
+            </Link>
+
+            <Link href="/asd-renewables/contact">
+              <li>Contact Us</li>
+            </Link>
           </ul>
         </span>
       </div>

@@ -75,9 +75,9 @@ export const slides = [
       paragraph:
         "3 Ways to keep away from blackouts, drive your home and consume energy from your own storage.",
       fBtnText: "Find Out Now",
-      fBtnLinK: "#",
+      fBtnLinK: "/how-to-use",
       sBtnText: "Buy Now",
-      sBtnLink: "#",
+      sBtnLink: "/products",
     },
     {
       id: 4,
@@ -97,9 +97,9 @@ export const slides = [
       paragraph:
         "ASD leverages the opportunity presented in Nigeria's shortages to deliver sustainable energy.",
       fBtnText: "More About Us",
-      fBtnLinK: "#",
+      fBtnLinK: "/asd-renewables/about",
       sBtnText: "Let's Partner",
-      sBtnLink: "#",
+      sBtnLink: "/asd-renewables/contact",
     },
     {
       id: 6,
@@ -107,10 +107,10 @@ export const slides = [
       header: "Partnership",
       paragraph:
         "We work together with the best brands in solar equipment manufacturing around the world.",
-      fBtnText: "Expore Now",
-      fBtnLinK: "#",
+      fBtnText: "Partner With US",
+      fBtnLinK: "/asd-renewables/contact",
       sBtnText: "More About Us",
-      sBtnLink: "#",
+      sBtnLink: "asd-renewables/about",
     },
     {
       id: 7,
@@ -118,10 +118,10 @@ export const slides = [
       header: "Bridging Power Gaps",
       paragraph:
         "We harness hydro-power, wind energy, solar energy and biomass to fill Nigeria's energy gaps.",
-      fBtnText: "More About Us",
-      fBtnLinK: "#",
-      sBtnText: "Explore Solutions",
-      sBtnLink: "#",
+      fBtnText: "Our Solutions",
+      fBtnLinK: "/asd-renewables/about#solutions",
+      sBtnText: "Get A Solutions",
+      sBtnLink: "/asd-renewables/quote",
     },
   ];
 

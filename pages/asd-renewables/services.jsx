@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+import {BsFillArrowRightCircleFill} from 'react-icons/bs';
+
 // import Gis from "../../components/services/Gis.jsx";
 // import Dmda from "../../components/services/Dmda.jsx";
 // import Dcm from "../../components/services/Dcm.jsx";
@@ -18,12 +20,6 @@ import DataConversion from "../../public/images/data-conversion.jpg";
 
 const services = () => {
   const [tab, setTab] = useState(1);
-
-
-
-  // useEffect(() => {
-    
-  // }, [index]);
 
   const activateTab = (index) => {
     setTab(index);
@@ -46,6 +42,7 @@ const services = () => {
           <h2>Explore Our Services</h2>
           <p>At ASD, we are positioned to deliver the best of the following services in the most effective ways for our clients:</p>
         </div>
+
         {/*Div Tabs*/}
         <div className="box">
           <div className="tabs">
@@ -53,6 +50,9 @@ const services = () => {
               onClick={() => activateTab(1)}
               className={`${tab === 1 ? "tab active-tab" : "tab"}`}
             >
+              <span className="icon__veritical">
+                  <BsFillArrowRightCircleFill />
+                  </span>
               GIS & RS
             </div>
 
@@ -60,6 +60,9 @@ const services = () => {
               onClick={() => activateTab(2)}
               className={`${tab === 2 ? "tab active-tab" : "tab"}`}
             >
+              <span className="icon__veritical">
+                  <BsFillArrowRightCircleFill />
+                  </span>
               Digital Mapping
             </div>
 
@@ -67,6 +70,9 @@ const services = () => {
               onClick={() => activateTab(3)}
               className={`${tab === 3 ? "tab active-tab" : "tab"}`}
             >
+              <span className="icon__veritical">
+                  <BsFillArrowRightCircleFill />
+                  </span>
              Data Conversion 
             </div>
 
@@ -74,6 +80,9 @@ const services = () => {
               onClick={() => activateTab(4)}
               className={`${tab === 4 ? "tab active-tab" : "tab"}`}
             >
+              <span className="icon__veritical">
+                  <BsFillArrowRightCircleFill />
+                  </span>
               Remote Sensing
             </div>
           </div>

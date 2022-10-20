@@ -52,24 +52,22 @@ const Whysolar = () => {
             className="whysolar__icon"
           />
         </div>
-
+        
+        <Bounce bottom>
         <div className="whysolar__warranty">
           <article>
-            <Bounce bottom>
               <h3>Enjoy Warranty Protection</h3>
-            </Bounce>
-            <Bounce bottom>
               <p>
                 Because some solar products have lifetime warranties and require
                 little or no maintenance so the installation gives you long
                 years of trouble-free service.
               </p>
-            </Bounce>
             <Link href="/asd-renewables/quote">
               <button>Go Solar Now</button>
             </Link>
           </article>
         </div>
+        </Bounce>
       </div>
     </div>
     </>
