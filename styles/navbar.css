@@ -49,6 +49,10 @@
   border-bottom: 2px #00bcb7 solid;
   padding-bottom: 10px;
 }
+.active__page {
+  color: #009991;
+  border-bottom: 2px #00bcb7 solid;
+}
 .active {
   color: #00bcb7;
 }

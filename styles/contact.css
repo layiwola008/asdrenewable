@@ -1,0 +1,98 @@
+.contact__col__left {
+    flex: 1;
+    margin: 20px 20px;
+    background-color: #009991;
+    padding: 50px 30px;
+    border-radius: 15px;
+  }
+  .contact__col__left div {
+    margin-bottom: 40px;
+    color: #D8D8D8;
+  }
+  .contact__col__left div h3 {
+    margin-bottom: 10px;
+  }
+  .contact__col__left div p {
+    margin-bottom: 5px;
+  }
+  .contact__col__left button {
+    display: flex;
+    align-items: center;
+    background-color: #D8D8D8;
+  }
+.contact__col__right {
+    flex: 2;
+    margin: 20px 0;
+    position: relative;
+  }
+  .contact__form div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+  }
+  .contact__form div span {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .contact__form div span input {
+    width: 90%;
+    margin-right: 40px;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px #006363 solid;
+    border-radius: 5px;
+  }
+  .contact__form div span input:focus {
+    outline: none;
+  }
+  .contact__form div span textarea {
+    width: 90%;
+    margin-right: 40px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px #006363 solid;
+    border-radius: 5px;
+  }
+  .contact__form div span textarea:focus {
+    outline: none;
+  }
+  .contact__button {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 24%;
+    background-color: #009991;
+    color: #fff;
+  }
+  .contact__icon {
+    margin-right: 5px;;
+  }
+
+
+  /*IPAD PRO RESPONSIVENESS*/
+@media only screen and (max-width: 1110px) {
+  .contact__button {
+    bottom: -15px;
+    right: 28.5%;
+  }
+}
+/*Ipad Mini, Ipad, Ipad Air*/
+@media only screen and (max-width: 898px) {
+  .contact__form div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact__form div span input {
+    width: 600px;
+  }
+  .contact__form div span textarea {
+    width: 600px;
+  }
+}
+/*Samsung Galaxy and others*/
+@media only screen and (max-width: 466px) {
+
+}

@@ -16,19 +16,32 @@
 }
 .service__article {
     width: 40ch;
-    font-size: 18px;
+    font-size: 18px;    
+    letter-spacing: 1.2px;    
+    line-height: 32px; 
+}
+.service__icon {
+    font-size: 20px;
 }
 
 
 /*IPAD PRO RESPONSIVENESS*/
 @media only screen and (max-width: 1110px) {
-  
+    .service__article {
+        width: 52ch;
+        font-size: 23px;
+    }
 }
 /*Ipad Mini, Ipad, Ipad Air*/
 @media only screen and (max-width: 898px) {
-
+    .service__article {
+        width: 42ch;
+    }
 }
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
-
+    .service__article {
+        width: 40ch;      
+        font-size: 23px;
+    }
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Image from "next/image";
 import { BsTelephoneFill } from "react-icons/bs";
 import { BsArrowRightCircleFill } from "react-icons/bs";
@@ -7,6 +7,12 @@ import Logo from "../public/images/asd-logo.png";
 import Link from "next/link";
 
 const Navbar = () => {
+  const [page, setPage] = useState(1);
+
+  function setCurrentPage(index) {
+    setPage(index);
+  }
+
   return (
     <div className="navbar__container">
       <div className="navbar__left">
@@ -18,28 +24,29 @@ const Navbar = () => {
             height="70"
             objectFit="cover"
             className="logo"
+            onClick={() => setCurrentPage(1)}
           />
         </Link>
       </div>
       <div className="navbar__middle">
         <ul>
           <Link href="/">
-            <li className="active hide__mobile">Home</li>
+            <li className={page === 1 ? "active__page hide__mobile" : ""} onClick={() => setCurrentPage(1)}>Home</li>
           </Link>
           <Link href="/asd-renewables/about">
-            <li className="hide__mobile">About Us</li>
+            <li className={page === 2 ? "active__page hide__mobile" : ""} onClick={() => setCurrentPage(2)}>About Us</li>
           </Link>
           <Link href="/asd-renewables/about#solutions">
-            <li>Solutions</li>
+            <li className={page === 3 ? "active__page" : ""} onClick={() => setCurrentPage(3)}>Solutions</li>
           </Link>
           <Link href="/asd-renewables/services">
-            <li>Services</li>
+            <li className={page === 4 ? "active__page" : ""} onClick={() => setCurrentPage(4)}>Services</li>
           </Link>
           <Link href="/products">
-            <li>Products</li>
+            <li className={page === 5 ? "active__page" : ""} onClick={() => setCurrentPage(5)}>Products</li>
           </Link>
           <Link href="/asd-renewables/contact">
-            <li className="hide__mobile">Contact Us</li>
+            <li className={page === 6 ? "active__page hide__mobile" : ""} onClick={() => setCurrentPage(6)}>Contact Us</li>
           </Link>
         </ul>
         <div className="navbar__phone">

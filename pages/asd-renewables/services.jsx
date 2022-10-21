@@ -51,7 +51,7 @@ const services = () => {
               className={`${tab === 1 ? "tab active-tab" : "tab"}`}
             >
               <span className="icon__veritical">
-                  <BsFillArrowRightCircleFill />
+                  <BsFillArrowRightCircleFill className="service__icon" />
                   </span>
               GIS & RS
             </div>
@@ -61,7 +61,7 @@ const services = () => {
               className={`${tab === 2 ? "tab active-tab" : "tab"}`}
             >
               <span className="icon__veritical">
-                  <BsFillArrowRightCircleFill />
+                  <BsFillArrowRightCircleFill className="service__icon" />
                   </span>
               Digital Mapping
             </div>
@@ -71,7 +71,7 @@ const services = () => {
               className={`${tab === 3 ? "tab active-tab" : "tab"}`}
             >
               <span className="icon__veritical">
-                  <BsFillArrowRightCircleFill />
+                  <BsFillArrowRightCircleFill className="service__icon" />
                   </span>
              Data Conversion 
             </div>
@@ -81,7 +81,7 @@ const services = () => {
               className={`${tab === 4 ? "tab active-tab" : "tab"}`}
             >
               <span className="icon__veritical">
-                  <BsFillArrowRightCircleFill />
+                  <BsFillArrowRightCircleFill className="service__icon" />
                   </span>
               Remote Sensing
             </div>
@@ -106,12 +106,12 @@ const services = () => {
             Services
           </h2>
           <article className="service__article">
-            ASD Renewables undertakes and execute geospatial projects for
+            ASD Renewables undertakes and executes geospatial projects for
             clients of any size. We specialize in GIS and RS Geospatial
             Solutions.
             <br />
             <br />
-            As part of our effort, we aimed at grasping new heights and keeping
+            As part of our effort, we aim at grasping new heights, keeping
             abreast with the latest technologies to provide reliable geospatial
             solutions with advanced hardware and software to the nation.
             <br />

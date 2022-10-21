@@ -71,7 +71,7 @@ hr {
 }
 .slider__desc button:first-child {
   text-align: center;
-  background-color: #009991;
+  background-color: #00bcb7;
   width: 25%;
   color: white;
   font-size: 15px;
@@ -93,7 +93,7 @@ hr {
   text-align: center;
 }
 .slider__desc button:last-child:hover {
-  background-color: #009991;
+  background-color: #00bcb7;
   color: white;
 }
 /*Swiper Slider End*/

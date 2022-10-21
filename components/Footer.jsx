@@ -40,11 +40,21 @@ const Footer = () => {
         <span>
           <p>Solutions</p>
           <ul>
-            <li>Residential</li>
-            <li>Industrial</li>
-            <li>Security</li>
-            <li>Farm Zone Energy</li>
-            <li>Community Mini Grid</li>
+            <Link href="/asd-renewables/about#solutions">
+              <li>Residential</li>
+            </Link>
+            <Link href="/asd-renewables/about#solutions">
+              <li>Industrial</li>
+            </Link>
+            <Link href="/asd-renewables/about#solutions">
+              <li>Security</li>
+            </Link>
+            <Link href="/asd-renewables/about#solutions">
+              <li>Farm Zone Energy</li>
+            </Link>
+            <Link href="/asd-renewables/about#solutions">
+              <li>Community Mini Grid</li>
+            </Link>
             <Link href="/how-solar-energy-works">
               <li>How It Works</li>
             </Link>

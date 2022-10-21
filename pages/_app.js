@@ -24,6 +24,9 @@ import "../styles/about.css";
 //Services Styles
 import "../styles/services.css";
 
+//Contact Us Styles
+import "../styles/contact.css";
+
 //How To Use Styles
 import "../styles/how-to-use.css";
 

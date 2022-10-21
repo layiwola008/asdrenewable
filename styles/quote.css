@@ -39,9 +39,9 @@
 .form span input {
   margin: -12px 20px 0 0;
   width: 375px;
-  padding: 5px;
-  background-color: #d8d8d8;
-  border: none;
+  padding: 8px;
+  border: 1px #006363 solid;
+  border-radius: 5px;
   border-radius: 5px;
   font-size: 20px;
 }
@@ -50,8 +50,9 @@
 }
 .form span select {
   margin: -12px 20px 0 0;
-  padding: 5px;
-  background-color: #d8d8d8;
+  padding: 8px;
+  border: 1px #006363 solid;
+  border-radius: 5px;
   width: 767px;
   border-radius: 5px;
   font-size: 20px;
@@ -63,8 +64,8 @@
   margin: -12px 20px 0 0;
   padding: 10px;
   width: 767px;
-  background-color: #d8d8d8;
-  border-radius: 10px;
+  border: 1px #006363 solid;
+  border-radius: 5px;
   font-size: 20px;
 }
 .form span textarea:focus {
