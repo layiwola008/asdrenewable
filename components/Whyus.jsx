@@ -15,13 +15,13 @@ const WhyUs = () => {
     <div className="whyus__container page__wrapper">
       <Slide bottom>
         <div className="whyus__header">
-          <header>
+          <div className="header">
             <p>Our Profile</p>
             <h1>
-              We Are Focused on Innovation Advancements Driving Maintainable
+              We Are Focused on Innovations Driving Sustainable
               Development
             </h1>
-          </header>
+          </div>
         </div>
       </Slide>
       <div className="whyus__content">
@@ -34,7 +34,7 @@ const WhyUs = () => {
                 </span>
                 <p>Projects Completed In Last 5 Years</p>
               </div>
-              <div>
+              <div className="float__right">
                 <span>
                   <CountUp end={1564} />
                 </span>

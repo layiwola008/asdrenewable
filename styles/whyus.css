@@ -9,15 +9,15 @@
   width: 100%;
   box-sizing: border-box;
 }
-header p {
+.header p {
   color: #69cc40;
   font-weight: 600;
   font-size: 23px;
   margin-bottom: 20px;
 }
-header h1 {
+.header h1 {
   color: #00bcb7;
-  max-width: 25ch;
+  max-width: 35ch;
   margin-bottom: 20px;
 }
 .whyus__row {
@@ -136,6 +136,10 @@ header h1 {
   }
   .whyus__about button {
     width: 20%;
+  }
+  .float__right {
+    position: relative;
+    left: 100px
   }
 }
 
