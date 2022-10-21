@@ -1,21 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Image from "next/image";
 
 import AsdServices from "../../public/images/asd-rewables-services.jpg";
 
 
 const contact = () => {
-  const [tab, setTab] = useState(1);
-
-
-
-  // useEffect(() => {
-    
-  // }, [index]);
-
-  const activateTab = (index) => {
-    setTab(index);
-  };
 
   return (
     <>

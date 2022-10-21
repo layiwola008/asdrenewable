@@ -81,8 +81,8 @@
   border-left: 1px #d8d8d8 solid;
 }
 .navbar__quote {
-  width: 60%;
-  height: 45px;
+  width: 55%;
+  height: 35px;
   padding: 0 5px;
   display: flex;
   align-items: center;
@@ -99,6 +99,8 @@
 }
 .quote__icon {
   margin-right: 5px;
+  margin-bottom: 3px;
+  font-size: 12px;
   color: white;
 }
 /*NavBar Style End*/
@@ -123,7 +125,7 @@
   }
   .navbar__quote {
     margin-left: 135px;
-    width: 50%;
+    width: 35%;
     font-size: 30px;
   }
 }

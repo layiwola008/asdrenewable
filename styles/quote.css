@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  font-size: 23px;
+  font-size: 20px;
 }
 .form span {
   display: flex;
@@ -39,22 +39,25 @@
 .form span input {
   margin: -12px 20px 0 0;
   width: 375px;
-  padding: 20px;
+  padding: 5px;
   background-color: #d8d8d8;
   border: none;
-  border-radius: 10px;
-  font-size: 23px;
+  border-radius: 5px;
+  font-size: 20px;
 }
 .form span input:focus {
   outline: none;
 }
 .form span select {
   margin: -12px 20px 0 0;
-  padding: 20px;
+  padding: 5px;
   background-color: #d8d8d8;
   width: 767px;
-  border-radius: 10px;
-  font-size: 23px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.form span select:focus {
+  outline: none;
 }
 .form span textarea {
   margin: -12px 20px 0 0;
@@ -62,7 +65,7 @@
   width: 767px;
   background-color: #d8d8d8;
   border-radius: 10px;
-  font-size: 23px;
+  font-size: 20px;
 }
 .form span textarea:focus {
   outline: none;
@@ -119,22 +122,22 @@
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
   .form div {
-    font-size: 30px;
+    font-size: 25px;
   }
   .form span input {
     width: 480px;
-    font-size: 30px;
+    font-size: 25px;
   }
   .form span select {
     width: 480px;
-    font-size: 30px;
+    font-size: 25px;
   }
   .form span textarea {
     width: 480px;
-    font-size: 30px;
+    font-size: 25px;
   }
   .quote__form__container .button {
     width: 96%;
-    font-size: 30px;
+    font-size: 25px;
   }
 }

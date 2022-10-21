@@ -52,7 +52,7 @@ export const slides = [
       header: "Why You Must Go Solar",
       paragraph:
         "Safeguard your home from the unstable power supply from the grid.",
-      fBtnText: "Go Solar Now",
+      fBtnText: "Go Solar",
       fBtnLinK: "asd-renewables/quote",
       sBtnText: "View Products",
       sBtnLink: "/products",
@@ -65,7 +65,7 @@ export const slides = [
         "Learn how the solar energy system works to generate, store and supply you power 24/7.",
       fBtnText: "Read More",
       fBtnLinK: "/how-solar-energy-works",
-      sBtnText: "Get A Solution",
+      sBtnText: "Get Solution",
       sBtnLink: "/asd-renewables/about#solutions",
     },
     {
@@ -74,9 +74,9 @@ export const slides = [
       header: "How You Can Use",
       paragraph:
         "3 Ways to keep away from blackouts, drive your home and consume energy from your own storage.",
-      fBtnText: "Find Out Now",
+      fBtnText: "Find Out",
       fBtnLinK: "/how-to-use",
-      sBtnText: "Get A Product",
+      sBtnText: "Buy Product",
       sBtnLink: "/products",
     },
     {
@@ -85,7 +85,7 @@ export const slides = [
       header: "GIS and RS Services",
       paragraph:
         "ASD Renewables undertakes and executes GIS and RS Geospatial Projects for clients of any size.",
-      fBtnText: "Explore Services",
+      fBtnText: "Our Services",
       fBtnLinK: "/asd-renewables/services",
       sBtnText: "Contact Us",
       sBtnLink: "/asd-renewables/contact",
@@ -96,8 +96,8 @@ export const slides = [
       header: "Global Solutions Provider",
       paragraph:
         "ASD leverages the opportunity presented in Nigeria's shortages to deliver sustainable energy.",
-      fBtnText: "More About Us",
-      fBtnLinK: "/asd-renewables/about",
+      fBtnText: "Our Solutions",
+      fBtnLinK: "/asd-renewables/about#solutions",
       sBtnText: "Let's Partner",
       sBtnLink: "/asd-renewables/contact",
     },
@@ -107,9 +107,9 @@ export const slides = [
       header: "Partnership",
       paragraph:
         "We work together with the best brands in solar equipment manufacturing around the world.",
-      fBtnText: "Partner With US",
+      fBtnText: "Let's Partner",
       fBtnLinK: "/asd-renewables/contact",
-      sBtnText: "More About Us",
+      sBtnText: "About Us",
       sBtnLink: "asd-renewables/about",
     },
     {
@@ -120,7 +120,7 @@ export const slides = [
         "We harness hydro-power, wind energy, solar energy and biomass to fill Nigeria's energy gaps.",
       fBtnText: "Our Solutions",
       fBtnLinK: "/asd-renewables/about#solutions",
-      sBtnText: "Get A Solutions",
+      sBtnText: "Get Solution",
       sBtnLink: "/asd-renewables/quote",
     },
   ];

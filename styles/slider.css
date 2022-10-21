@@ -68,13 +68,11 @@ hr {
 }
 .slider__buttons {
   display: flex;
-  align-items: center;
 }
 .slider__desc button:first-child {
-  display: flex;
-  align-items: center;
+  text-align: center;
   background-color: #009991;
-  width: 30%;
+  width: 25%;
   color: white;
   font-size: 15px;
 }
@@ -90,8 +88,9 @@ hr {
   background-color: #d8d8d8;
   color: #009991;
   cursor: pointer;
-  width: 30%;
+  width: 22%;
   font-size: 15px;
+  text-align: center;
 }
 .slider__desc button:last-child:hover {
   background-color: #009991;
@@ -118,9 +117,9 @@ hr {
     font-size: 20px;
   }
   .slider__desc button:first-child {
-    width: 40%;
+    width: 30%;
   }
   .slider__desc button:last-child {
-    width: 40%;
+    width: 30%;
   }
 }

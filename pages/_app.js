@@ -27,6 +27,9 @@ import "../styles/services.css";
 //How To Use Styles
 import "../styles/how-to-use.css";
 
+//FAQ Styles
+import "../styles/faq.css";
+
 //Quote Page Styles
 import "../styles/quote.css";
 

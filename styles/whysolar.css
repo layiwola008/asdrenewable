@@ -80,7 +80,7 @@
   line-height: 25px;
 }
 .whysolar__warranty button {
-  width: 50%;
+  width: 30%;
   margin-top: 20px;
   background-color: #004442;
   color: white;
@@ -104,6 +104,9 @@
   .whysolar__warranty p {
     font-size: 20px;
   }
+  .whysolar__warranty button {
+    width: 45%;
+  }
 }
 /*Ipad Mini, Ipad, Ipad Air*/
 @media only screen and (max-width: 898px) {
@@ -124,6 +127,6 @@
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
   .whysolar__warranty button {
-    width: 50%;
+    width: 35%;
   }
 }

@@ -108,7 +108,7 @@
     line-height: 35px;
   }
   .energy__forms__container .header .right button {
-    width: 45%;
+    width: 30%;
     font-size: 25px;
   }
   .energy__forms__container .cards {
@@ -136,7 +136,7 @@
     font-size: 60px;
   }
   .energy__forms__container .header .right button {
-    width: 65%;
+    width: 40%;
   }
   .energy__forms__container .card {
     width: 84.5%;
@@ -146,9 +146,6 @@
 @media only screen and (max-width: 466px) {
   .energy__forms__container .header {
     margin-bottom: 50px;
-  }
-  .energy__forms__container .header .right button {
-    width: 45%;
   }
   .energy__forms__container .card {
     width: 91%;

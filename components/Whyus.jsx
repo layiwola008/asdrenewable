@@ -56,8 +56,8 @@ const WhyUs = () => {
               <Image
                 src={WhyusImage}
                 alt="Image"
-                width="430"
-                height="430"
+                width="830"
+                height="830"
                 objectFit="cover"
                 className="whyus__image"
               />
