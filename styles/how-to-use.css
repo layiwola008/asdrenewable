@@ -1,34 +1,39 @@
-.steps__header, .steps__end {
-    margin-bottom: 40px;
+.steps__header,
+.steps__end {
+  margin-bottom: 40px;
 }
 .steps__container {
-    background-color: #D8D8D8;
-    width: 70%;
-    margin: auto;
-    padding: 100px 0;
-    border-radius: 15px;
-    position: relative;
-    font-size: 23px;
+  background-color: #d8d8d8;
+  width: 70%;
+  margin: auto;
+  padding: 100px 0;
+  border-radius: 15px;
+  position: relative;
+  font-size: 23px;
 }
 .steps__container h2 {
-margin-bottom: 30px;
-background-color: #69CC40;
-color: #ffffff;
-padding: 20px;
-position: absolute;
-top: 0;
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #69cc40;
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  margin: auto;
 }
 .steps__container button {
-    width: 50%;
-    background-color: #69CC40;
-    color: #ffffff;
+  width: 20%;
+  background-color: #69cc40;
+  color: #ffffff;
 }
 .steps {
   padding: 0;
 }
 .step h3 {
-    color: #599E35;
-    margin-bottom: 20px;
+  color: #599e35;
+  margin-bottom: 20px;
 }
 .step p {
   width: 20ch;
@@ -50,20 +55,20 @@ top: 0;
   margin: 60px 0;
 }
 .step__icon {
-    font-size: 150px;
-    color: #599E35;
+  font-size: 150px;
+  color: #599e35;
 }
 
 /*IPAD PRO RESPONSIVENESS*/
-@media only screen and (max-width: 1110px) {    
-    .steps__row {
+@media only screen and (max-width: 1110px) {
+  .steps__row {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
     box-sizing: border-box;
   }
-  .steps__row__reverse{
+  .steps__row__reverse {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -71,14 +76,19 @@ top: 0;
     width: 100%;
     box-sizing: border-box;
   }
+  .steps__container button {
+    width: 25%;
+  }
 }
 /*Ipad Mini, Ipad, Ipad Air*/
 @media only screen and (max-width: 898px) {
-    .steps__container {
-        width: 90%;
-    }
+  .steps__container {
+    width: 90%;
+  }
 }
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
-   
+  .steps__container button {
+    width: 30%;
+  }
 }
