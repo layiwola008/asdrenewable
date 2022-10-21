@@ -32,12 +32,15 @@ const Navbar = () => {
           <Link href="/asd-renewables/about#solutions">
             <li>Solutions</li>
           </Link>
-          <Link href="/asd-renewables/services"><li>Services</li></Link>
-          <Link href="/products"><li>Products</li></Link>
-         
-          <li>Partnership</li>
-          <Link href="/asd-renewables/contact"><li className="hide__mobile">Contact Us</li></Link>
-          
+          <Link href="/asd-renewables/services">
+            <li>Services</li>
+          </Link>
+          <Link href="/products">
+            <li>Products</li>
+          </Link>
+          <Link href="/asd-renewables/contact">
+            <li className="hide__mobile">Contact Us</li>
+          </Link>
         </ul>
         <div className="navbar__phone">
           <span className="navbar__icon">
