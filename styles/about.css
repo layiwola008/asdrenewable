@@ -45,7 +45,7 @@
   margin-bottom: 10px;
 }
 .solution .desc button {
-  width: 50%;
+  width: 40%;
   margin-top: 20px;
   background-color: #d8d8d8;
   border: 1px solid #006363;
@@ -62,7 +62,7 @@
     align-self: flex-start;
   }
   .solution .desc button {
-    width: 40%;
+    width: 20%;
   }
 }
 /*Ipad Mini, Ipad, Ipad Air*/
@@ -71,7 +71,7 @@
     width: 92%;
   }
   .solution .desc button {
-    width: 50%;
+    width: 30%;
   }
 }
 /*Samsung Galaxy and others*/
@@ -83,6 +83,6 @@
     width: 90%;
   }
   .solution .desc button {
-    width: 80%;
+    width: 33%;
   }
 }
