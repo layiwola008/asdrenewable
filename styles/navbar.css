@@ -107,6 +107,34 @@
 }
 /*NavBar Style End*/
 
+
+/*Navigation Hamburger Start*/
+.hamburger {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  width: 500px;
+  text-align: center;
+  color: #d8d8d8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger ul {
+  background-color: #004442;
+  width: 500px;
+  list-style: none;
+  margin-top: 15px;
+}
+.hamburger__icon{
+  font-size: 60px;
+  color: #009991;
+  align-self: flex-end;
+
+}
+/*Navigation Hamburger End*/
+
 /*IPAD PRO RESPONSIVENESS*/
 @media only screen and (max-width: 1110px) {
   .navbar__middle ul li {

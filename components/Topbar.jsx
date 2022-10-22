@@ -15,7 +15,7 @@ const Topbar = () => {
         </div>        
         <div className='topbar__item'>
           <span className='tobbar__icon'><GiTimeBomb /></span>
-          <span> Mon-Fri: 8am – 7pm</span>
+          <span> Mon-Fri: 8 am – 5 pm</span>
           
         </div>
       </div>

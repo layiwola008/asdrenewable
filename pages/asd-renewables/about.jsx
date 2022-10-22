@@ -115,7 +115,7 @@ const About = () => {
                 <h3>Value Proposition</h3>
                 <p>
                   Efficient distribution and zero emission energy provider that
-                  sustain the globe and its habitants for future generations.
+                  sustains the globe and its habitants for future generations.
                 </p>
               </div>
             </div>

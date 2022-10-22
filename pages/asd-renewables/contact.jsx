@@ -54,9 +54,9 @@ const contact = () => {
             <div>
               <h3>Opening Hours</h3>
               <p>From Monday - Friday</p>
-              <p><MdAccessTimeFilled /> {" "}8 am to 6 pm</p>
+              <p><MdAccessTimeFilled /> {" "}8 am to 5 pm</p>
             </div>
-            <Link href="/asd-renewables/quote"><button><BsFillArrowRightCircleFill className="contact__icon"/> {" "}Request A Quote</button></Link>
+            {/* <Link href="/asd-renewables/quote"><button><BsFillArrowRightCircleFill className="contact__icon"/> {" "}Request A Quote</button></Link> */}
             
           </div>
           </Slide>
