@@ -112,6 +112,9 @@
   .navbar__middle ul li {
     font-size: 17px;
   }
+  .navbar__quote {
+    width: 68%;
+  }
 }
 
 /*Ipad Mini, Ipad, Ipad Air*/
@@ -127,7 +130,7 @@
   }
   .navbar__quote {
     margin-left: 135px;
-    width: 35%;
+    width: 30%;
     font-size: 30px;
   }
 }

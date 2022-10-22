@@ -62,7 +62,7 @@
     align-items: center;
     position: absolute;
     bottom: 0;
-    right: 24%;
+    right: 20.5%;
     background-color: #009991;
     color: #fff;
   }
@@ -84,6 +84,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    position: relative;
+    margin-right: 40px;
   }
   .contact__form div span input {
     width: 600px;
@@ -94,5 +96,7 @@
 }
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
-
+  .contact__form div {
+    margin-right: 34px;
+  }
 }

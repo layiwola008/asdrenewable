@@ -39,6 +39,8 @@ const contact = () => {
           </Slide>
         </div>
         <div className="row">
+          <Slide bottom>
+
           <div className="contact__col__left">           
             <div>
             <h3>Our Location</h3>
@@ -57,8 +59,9 @@ const contact = () => {
             <Link href="/asd-renewables/quote"><button><BsFillArrowRightCircleFill className="contact__icon"/> {" "}Request A Quote</button></Link>
             
           </div>
+          </Slide>
 
-
+          <Slide bottom>
           <div className="contact__col__right">
               <div className="contact__form__container">
             <div className="col">
@@ -116,6 +119,8 @@ const contact = () => {
             </div>
           </div>
           </div>
+
+          </Slide>
         </div>          
       </div>
     </>
