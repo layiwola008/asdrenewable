@@ -10,6 +10,10 @@ body,
 p {
   letter-spacing: 1.2px;
 }
+ul li {  
+  font-size: 20px;
+  letter-spacing: 1.2px;
+}
 ::-webkit-scrollbar {
   width: 0px;
 }
