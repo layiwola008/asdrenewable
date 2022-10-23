@@ -84,8 +84,22 @@
   justify-content: center;
   border-left: 1px #d8d8d8 solid;
 }
+.quote__cta__container {
+  width: 100%;
+}
 .navbar__quote {
   width: 55%;
+  height: 35px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00bcb7;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navbar__quote__mobile {
+  width: 30%;
   height: 35px;
   padding: 0 5px;
   display: flex;
@@ -110,30 +124,12 @@
 
 /*Navigation Hamburger Start*/
 .hamburger {
-  position: absolute;
-  right: 0;
-  top: 20px;
-  width: 500px;
-  text-align: center;
-  color: #d8d8d8;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.hamburger ul {
-  background-color: #004442;
-  width: 500px;
-  list-style: none;
-  margin-top: 15px;
-}
-.hamburger__icon{
-  font-size: 60px;
-  color: #009991;
-  align-self: flex-end;
-
+  display: none;
 }
 /*Navigation Hamburger End*/
+
+
+
 
 /*IPAD PRO RESPONSIVENESS*/
 @media only screen and (max-width: 1110px) {
@@ -142,6 +138,40 @@
   }
   .navbar__quote {
     width: 68%;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 100vw;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hamburger ul {
+    align-self: flex-end;
+    background-color: #004442;
+    width: 50%;
+    height: 100vh;
+    list-style: none;
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 40px;
+  }
+  .hamburger ul li {
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  .hamburger__icon{
+    font-size: 60px;
+    color: #009991;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-right: 40px;
   }
 }
 
@@ -160,5 +190,24 @@
     margin-left: 135px;
     width: 30%;
     font-size: 30px;
+  }
+
+}
+
+ /*Samsung Galaxy and others*/
+ @media only screen and (max-width: 466px) {
+  .hamburger ul {
+    width: 100vh;
+    height: 1500px;
+  }
+}
+ /*Samsung Galaxy and others*/
+ @media only screen and (max-width: 735px) {
+  .hamburger ul {
+    width: 100%;
+    height: 1500px;
+  }
+  .navbar__quote__mobile {
+    width: 50%;
   }
 }
