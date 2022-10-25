@@ -77,8 +77,7 @@ const quote = () => {
                 >
                   <div>
                     <span>
-                      <label for="fname">First name:</label>{" "}
-                        <span className="require__style">*</span>
+                      <label for="fname">First name:</label>
                       <br />
                       <input
                         type="text"
@@ -101,8 +100,7 @@ const quote = () => {
                       />
                     </span>
                     <span>
-                      <label for="email">Email:</label>{" "}
-                        <span className="require__style">*</span>
+                      <label for="email">Email:</label>
                       <br />
                       <input
                         type="text"
@@ -113,8 +111,7 @@ const quote = () => {
                       />
                     </span>
                     <span>
-                      <label for="phone">Telephone Number:</label>{" "}
-                        <span className="require__style">*</span>
+                      <label for="phone">Telephone Number:</label>
                       <br />
                       <input
                         type="text"
@@ -125,8 +122,7 @@ const quote = () => {
                       />
                     </span>
                     <span>
-                      <label for="solution">Choose A Solution:</label>{" "}
-                        <span className="require__style">*</span>
+                      <label for="solution">Choose A Solution:</label>
                       <br />
                       <select name="solution" id="solution" required>
                         <option value="">--Select Solution--</option>
@@ -148,8 +144,7 @@ const quote = () => {
                       </select>
                     </span>
                     <span>
-                      <label for="comment">Comment</label>
-                        
+                      <label for="comment">Comment:</label>
                       <br />
                       <textarea
                         name="comment"
