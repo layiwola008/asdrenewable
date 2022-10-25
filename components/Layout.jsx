@@ -10,6 +10,7 @@ const Layout = ({children}) => {
     <div className='layout'>
       <Head>
         <title>ASD Renewables - Top Solar Company In Abjua Nigeria</title>
+         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
         <Topbar />

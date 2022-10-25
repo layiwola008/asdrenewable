@@ -11,7 +11,7 @@ const Topbar = () => {
       <div className='topbar__left'>
         <div className='topbar__item'>
           <span className='tobbar__icon'><IoMdMail /></span>
-          <span> contact@asdrenewables.com</span>          
+          <span> info@asdrenewables.com</span>          
         </div>        
         <div className='topbar__item'>
           <span className='tobbar__icon'><GiTimeBomb /></span>

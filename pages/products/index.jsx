@@ -7,6 +7,8 @@ import {BsFillArrowRightCircleFill} from 'react-icons/bs';
 import AsdServices from "../../public/images/asd-rewables-services.jpg";
 
 import SolarBattery from "../../public/images/products/solar-battery.png";
+import Avr from "../../public/images/products/avr.png";
+import Connector from "../../public/images/products/solar-connector.png";
 import SolarPannels from "../../public/images/products/solar-pannels.png";
 import Combiner from "../../public/images/products/panel-combiner.png";
 import Controller from "../../public/images/products/charge-controller.png";
@@ -300,7 +302,7 @@ const products = () => {
               >
                 <h2 className="service__title">AVR</h2>
                 <Image
-                  src={SolarPannels}
+                  src={Avr}
                   alt="Image"
                   width="300"
                   height="300"
@@ -354,7 +356,7 @@ const products = () => {
               >
                 <h2 className="service__title">Solar Connectors</h2>
                 <Image
-                  src={SolarPannels}
+                  src={Connector}
                   alt="Image"
                   width="300"
                   height="300"

@@ -27,13 +27,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.community__content article h3 {
+.community__content article h2 {
   color: #00bcb7;
-  font-size: 50px;
   font-weight: 600;
   margin-bottom: 50px;
 }
-.community__content article h3 span {
+.community__content article h2 span {
   color: #69cc40;
   font-weight: 300;
 }
@@ -50,19 +49,19 @@
   flex: 1;
   margin-right: 50px;
 }
-.content .left h4 {
-  font-size: 30px;
+.content .left h3 {
   font-weight: 600;
   margin-bottom: 5px;
 }
 .content .left p {
-  font-size: 31px;
+  font-size: 20px;
+  font-weight: 500;
 }
 .content .right {
   flex: 1;
   margin-left: 50px;
   padding-top: 110px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 25px;
   font-size: 18px;
 }

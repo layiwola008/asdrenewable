@@ -31,7 +31,7 @@ const About = () => {
         <h1>About ASD Renewables</h1>
       </span>
       <div className="page__wrapper">
-        <div className="row">
+        <div className="row about__content">
           <div className="col__md">
             <div>
               <Slide bottom>

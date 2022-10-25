@@ -10,14 +10,14 @@ const Community = () => {
         <div className="community__content page__wrapper">
           <article>
             <Slide bottom>
-              <h3>
+              <h2>
                 <span>Community</span> Mini Grid Solution
-              </h3>
+              </h2>
             </Slide>
             <div className="content">
               <div className="left">
                 <Slide bottom>
-                  <h4>Off-Grid Power</h4>
+                  <h3>Off-Grid Power</h3>
                 </Slide>
                 <hr />
                 <Bounce bottom>
