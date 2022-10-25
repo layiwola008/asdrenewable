@@ -88,8 +88,7 @@ const quote = () => {
                       />
                     </span>
                     <span>
-                      <label for="lname">Last name:</label>{" "}
-                        <span className="require__style">*</span>
+                      <label for="lname">Last name:</label>
                       <br />
                       <input
                         type="text"
