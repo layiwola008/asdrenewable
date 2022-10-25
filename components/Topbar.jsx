@@ -4,6 +4,7 @@ import {FaTwitterSquare} from 'react-icons/fa';
 import {FaLinkedin} from 'react-icons/fa';
 import {IoMdMail} from 'react-icons/io';
 import {GiTimeBomb} from 'react-icons/gi';
+import Link from 'next/link';
 
 const Topbar = () => {
   return (
@@ -21,6 +22,11 @@ const Topbar = () => {
       </div>
 
       <div className='topbar__right'>
+        <div className='topbar__links'>
+          <Link href="/faq"><span>FAQ</span></Link>
+          
+          <span>Partners</span>
+        </div>
         <span className='social__icon'><FaFacebook /></span>
         <span className='social__icon'><FaTwitterSquare /></span>
         <span className='social__icon'><FaLinkedin /></span>
