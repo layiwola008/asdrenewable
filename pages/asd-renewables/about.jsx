@@ -46,8 +46,9 @@ const About = () => {
               </Slide>
             </div>
             <Slide bottom>
-              <h2>Company Profile</h2>
+              <h2>Who Are We?</h2>
             </Slide>
+            <div className="article__content">
             <Slide bottom>
               <strong>
                 <em>
@@ -68,8 +69,10 @@ const About = () => {
               Nigeria's energy gap amid increasing energy growth and demand.
               <br />
             </Slide>
+            </div>
           </div>
           <div className="col__md">
+          <div className="article__content">
             <Slide bottom>
               We source best-designed and manufactured renewable energy products
               such as solar panels, PV inverters, and energy backup products
@@ -89,6 +92,7 @@ const About = () => {
               outstanding warranties on our energy solutions and products,
               giving the most ROI with ASD.
             </Slide>
+            </div>
           </div>
         </div>
 
@@ -138,7 +142,7 @@ const About = () => {
           <div className="row">
             <div className="col__md">
               <Slide bottom>
-                <h2>Our Array Of Solutions</h2>
+                <h2>We Offer Solutions For:</h2>
               </Slide>
             </div>
             <div className="col__md">

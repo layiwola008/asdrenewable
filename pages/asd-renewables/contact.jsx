@@ -66,7 +66,7 @@ const contact = () => {
         <div className="col">
           <Slide bottom>
             <div className="quote__desc">
-              <h2>Request a Quote</h2>
+              <h2>Get In Touch</h2>
               <p>Let's talk! Kindly use any of our channels for support.</p>
             </div>
           </Slide>

@@ -40,15 +40,18 @@ const howItWorks = () => {
             <Slide bottom>
               <h2>How Solar Energy Storage Works</h2>
             </Slide>
+            <div className="article__content">
             <Slide bottom>
               A solar energy storage system consists of four main parts:
               <br />
-              <ul>
-                <li>Solar panels</li>
-                <li>Solar charge controllers</li>
-                <li>Inverter</li>
-                <li>Batteries</li>
-              </ul>
+              <div className="list__space">
+                <ul>
+                  <li>Solar panels</li>
+                  <li>Solar charge controllers</li>
+                  <li>Inverter</li>
+                  <li>Batteries</li>
+                </ul>
+              </div>
               <br />
               Below is an explanation of how the solar energy system works.
               <br />
@@ -72,6 +75,7 @@ const howItWorks = () => {
               or more. The batteries are then charged from the solar panels the
               next day.
             </Slide>
+            </div>
           </div>
         </div>
       </div>

@@ -150,11 +150,13 @@ const services = () => {
                   efficient manner for effective Inventories, maintenance
                   procedures, quality control, documentation of state of
                   construction planning and environmental impact studies no
-                  matter what the acquisition purpose, be it for a new GIS or an existing GIS system.
+                  matter what the acquisition purpose, be it for a new GIS or an
+                  existing GIS system.
                   <br />
                   <br />
                   Our expertise covers a wide range of Asset Management Mapping
-                  including but not limited to Underground Utility Cables Piping network, Streetlight and Road Furniture.
+                  including but not limited to Underground Utility Cables Piping
+                  network, Streetlight and Road Furniture.
                 </article>
               </div>
               <div className="col__md">
@@ -189,13 +191,15 @@ const services = () => {
                   We convert and migrate source data into any GIS Platform from:
                   <br />
                   <br />
-                  <ul>
-                    <li>Hardcopy Maps</li>
-                    <li>GIS Data Format (ESRI Format / MapInfo Format)</li>
-                    <li>AutoCAD Drawings</li>
-                    <li>Field Records and Notes</li>
-                    <li>GPS Data</li>
-                  </ul>
+                  <div className="list__space">
+                    <ul>
+                      <li>Hardcopy Maps</li>
+                      <li>GIS Data Format (ESRI Format / MapInfo Format)</li>
+                      <li>AutoCAD Drawings</li>
+                      <li>Field Records and Notes</li>
+                      <li>GPS Data</li>
+                    </ul>
+                  </div>
                 </article>
               </div>
               <div className="col__md">

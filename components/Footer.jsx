@@ -1,5 +1,10 @@
 import Image from "next/image";
 import React from "react";
+import {
+  AiFillLinkedin,
+  AiFillFacebook,
+  AiFillTwitterSquare,
+} from "react-icons/ai";
 
 import Logo from "../public/images/asd-logo.png";
 import { ImLocation2 } from "react-icons/im";
@@ -34,6 +39,15 @@ const Footer = () => {
             <FaHeadphonesAlt />
           </span>
           <p>09084000487</p>
+        </span>
+        <span className="social__media">
+          <Link href="https://www.facebook.com/profile.php?id=100085403510093">
+            <AiFillFacebook className="social__icon" />
+          </Link>
+          <AiFillTwitterSquare className="social__icon" />
+          <Link href="https://www.linkedin.com/company/asdrenewables/">
+          <AiFillLinkedin className="social__icon" />
+          </Link>
         </span>
       </div>
       <div className="right">
@@ -77,7 +91,9 @@ const Footer = () => {
             <Link href="/products">
               <li>Products</li>
             </Link>
-            <li>Our Partners</li>
+            <Link href="/asd-renewables/contact">
+              <li>Our Partners</li>
+            </Link>
           </ul>
         </span>
 
@@ -91,6 +107,14 @@ const Footer = () => {
             <Link href="/asd-renewables/contact">
               <li>Contact Us</li>
             </Link>
+            <li>
+              <a
+                href="asd-renewables-profile.pdf"
+                download="ASD Renewables Profile.pdf"
+              >
+                <button className="profileBtn">Download Profile</button>
+              </a>
+            </li>
           </ul>
         </span>
       </div>

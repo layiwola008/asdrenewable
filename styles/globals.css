@@ -22,6 +22,11 @@ h3 {
   font-size: 22px;
   line-height: 30px;
 }
+.article__content {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.2px;
+}
 ul li {  
   font-size: 18px;
   letter-spacing: 1.2px;
@@ -106,7 +111,7 @@ And centers content
 .col__md h2 {
   font-size: 25px;
   margin: 20px 0 30px 0;
-  color: #00bcb7;
+  color: #69CC40;
 }
 /*Creates a Row With Display Flex End*/
 

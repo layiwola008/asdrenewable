@@ -41,8 +41,9 @@
   cursor: pointer;
 }
 .social__icon {
-  margin-right: 10px;
+  margin-right: 10px 8px;
   font-size: 20px;
+  border-radius: 50%;
 }
 .social__icon:hover {
   color: #69cc40;

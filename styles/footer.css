@@ -39,6 +39,12 @@
   display: flex;
   align-items: center;
 }
+.social__media {
+  position: relative;
+  top: 20px;
+  display: flex;
+  align-items: center;
+}
 .footer__div .right {
   flex: 1.5;
   margin-left: 10px;
@@ -56,6 +62,10 @@
 .footer__div .right span ul li {
   margin-bottom: 10px;
   cursor: pointer;
+}
+.profileBtn {
+  background-color: #00BCB7;
+  color: white;
 }
 /*Footer End*/
 

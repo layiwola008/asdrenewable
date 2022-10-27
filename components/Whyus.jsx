@@ -4,7 +4,6 @@ import CountUp from "react-countup";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import Slide from "react-reveal/Slide";
 
-import Whyus from "../public/images/solar-engineer-asd.jpg";
 import WhyusImage from "../public/images/why-us-asd-renewables-02.jpg";
 import Leaf from "../public/images/solar-energy-icon-leaf.jpg";
 import Link from "next/link";
@@ -57,7 +56,7 @@ const WhyUs = () => {
                 src={WhyusImage}
                 alt="Image"
                 width="830"
-                height="830"
+                height="780"
                 objectFit="cover"
                 className="whyus__image"
               />
@@ -65,7 +64,7 @@ const WhyUs = () => {
           </Slide>
           <Slide bottom>
             <div className="whyus__about">
-              <span>
+              {/* <span>
                 <Image
                   src={Leaf}
                   alt="Image"
@@ -74,22 +73,19 @@ const WhyUs = () => {
                   objectFit="cover"
                   className="whyus__about__icon"
                 />
-              </span>
+              </span> */}
               <p>
-                <strong>
-                  <em>
                     ASD emerged as a global energy solution and distribution
                     provider, tapping into the opportunity presented in
                     Nigeria's energy and power shortage to deliver sustainable
                     energy, storage and consumption, including energy
                     digitalization to power industrial, residential, farm and
                     remote areas of the country.
-                  </em>
-                </strong>
+                 
                 <br />
                 <br />
                 We are committed to continuous technology innovations driving
-                sustainable growth and adapting to market trends.
+                sustainable growth and adapting to market trends...
               </p>
               <Link href="/asd-renewables/about">
               <button>

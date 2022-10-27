@@ -17,7 +17,10 @@
   margin-bottom: 60px;
 }
 .about__solutions h2 {
-  line-height: 45px;
+  line-height: 65px;
+  color: #69CC40;
+  font-size: 70px;
+  font-weight: normal;
 }
 .solutions__header__desc {
   color: #d8d8d8;
@@ -27,11 +30,15 @@
   width: 46%;
   height: 450px;
   padding: 30px;
-  background-color: #d8d8d8;
+  background-color: #006363;
+  color: white;
   margin: 20px 20px;
   box-sizing: border-box;
   border-radius: 15px;
   position: relative;
+}
+.solution h3 {
+  color: #69CC40;
 }
 .solution hr {
   position: absolute;
@@ -41,7 +48,7 @@
 }
 .solution span {
   font-size: 70px;
-  color: #006363;
+  color: #fff;
 }
 .solution .desc {
   margin-left: 20px;
@@ -56,8 +63,9 @@
 .solution .desc button {
   width: 40%;
   margin-top: 20px;
-  background-color: #d8d8d8;
-  border: 1px solid #006363;
+  background-color: #006363;
+  border: 1px solid #fff;
+  color: white;
   font-size: 15px;
 }
 /*About Us End*/
