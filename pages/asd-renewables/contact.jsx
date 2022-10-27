@@ -11,7 +11,7 @@ import { TiLocation } from "react-icons/ti";
 import { MdEmail, MdAccessTimeFilled } from "react-icons/md";
 import { BsFillPhoneFill, BsFillArrowRightCircleFill } from "react-icons/bs";
 
-import AsdServices from "../../public/images/asd-rewables-services.jpg";
+import CustomerCare from "../../public/images/cusntomer-support.jpg";
 import Link from "next/link";
 
 const contact = () => {
@@ -54,10 +54,10 @@ const contact = () => {
     <>
       <span className="page__header">
         <Image
-          src={AsdServices}
+          src={CustomerCare}
           alt="Image"
           width="1500"
-          height="500"
+          height="700"
           objectFit="cover"
         />
         <h1>Contact Us</h1>

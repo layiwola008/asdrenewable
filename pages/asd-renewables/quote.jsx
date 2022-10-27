@@ -5,7 +5,7 @@ import Slide from "react-reveal/Slide";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import aboutImage from "../../public/images/about-asd.png";
+import requestQuoteImage from "../../public/images/request-quote-asd.jpg";
 
 const quote = () => {
   const form = useRef();
@@ -47,10 +47,10 @@ const quote = () => {
     <>
       <span className="page__header">
         <Image
-          src={aboutImage}
+          src={requestQuoteImage}
           alt="Image"
           width="1500"
-          height="500"
+          height="700"
           objectFit="cover"
         />
         <h1>Request A Quote</h1>

@@ -3,8 +3,9 @@
   margin-bottom: 40px;
 }
 .steps__container {
-  background-color: #d8d8d8;
-  width: 70%;
+  background-color: #006363;
+  color: white;
+  width: 90%;
   margin: auto;
   padding: 100px 0;
   border-radius: 15px;
@@ -17,6 +18,7 @@
   background-color: #69cc40;
   border-top-right-radius: 15px;
   color: #ffffff;
+  font-weight: normal;
   padding: 20px;
   position: absolute;
   top: 0;
@@ -32,7 +34,7 @@
   padding: 0;
 }
 .step h3 {
-  color: #599e35;
+  color: #69CC40;
   margin-bottom: 20px;
 }
 .step p {
@@ -56,7 +58,7 @@
 }
 .step__icon {
   font-size: 150px;
-  color: #599e35;
+  color: #69CC40;
 }
 
 /*IPAD PRO RESPONSIVENESS*/
@@ -83,7 +85,7 @@
 /*Ipad Mini, Ipad, Ipad Air*/
 @media only screen and (max-width: 898px) {
   .steps__container {
-    width: 90%;
+    width: 100%;
   }
 }
 /*Samsung Galaxy and others*/

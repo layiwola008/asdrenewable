@@ -24,8 +24,8 @@ const About = () => {
         <Image
           src={aboutImage}
           alt="Image"
-          width="1370"
-          height="400"
+          width="1500"
+          height="500"
           objectFit="cover"
         />
         <h1>About ASD Renewables</h1>
