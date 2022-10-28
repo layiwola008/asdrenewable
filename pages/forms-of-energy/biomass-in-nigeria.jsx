@@ -6,6 +6,7 @@ import Slide from "react-reveal/Slide";
 //styles majorly from the about.css
 
 import bioMassEnergy from "../../public/images/biomass-energy.jpg";
+import Link from "next/link";
 
 const BioMass = () => {
   return (
@@ -54,6 +55,12 @@ const BioMass = () => {
                   <br />
                 </p>
               </Slide>
+              <Link href="/forms-of-energy/hydro-power-in-nigeria">
+                <button className="energy__post__button">Hydro Power</button>
+              </Link>
+              <Link href="/forms-of-energy/wind-energy-in-nigeria">
+                <button className="energy__post__button">Wind Energy</button>
+              </Link>
             </div>
           </div>
         </div>

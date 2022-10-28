@@ -16,9 +16,6 @@ import Inverter from "../../public/images/products/inverter.png";
 import Rail from "../../public/images/products/solar-panel-mounting-rail.png";
 import Rack from "../../public/images/products/battery-rack.png";
 
-import DigitalMapping from "../../public/images/digital-mapping.jpg";
-import RemoteSensing from "../../public/images/remote-sensing.jpg";
-import DataConversion from "../../public/images/data-conversion.jpg";
 
 const products = () => {
   const [tab, setTab] = useState(1);
@@ -111,20 +108,6 @@ const products = () => {
                   <BsFillArrowRightCircleFill />
                   </span>
                   Charge Controller
-                </div>
-
-                <div
-                  onClick={() => activateTab(5)}
-                  className={`${
-                    tab === 5
-                      ? "tab__vertical active-tab-vertical"
-                      : "tab__vertical"
-                  }`}
-                >
-                   <span className="icon__veritical">
-                  <BsFillArrowRightCircleFill />
-                  </span>
-                  Surge Protector
                 </div>
 
                 <div
@@ -267,24 +250,6 @@ const products = () => {
                 <h2 className="service__title">Charge Controller</h2>
                 <Image
                   src={Controller}
-                  alt="Image"
-                  width="300"
-                  height="300"
-                  objectFit="cover"
-                  className="image__style product"
-                />
-              </div>
-
-              <div
-                className={`${
-                  tab === 5
-                    ? "tab__content active__tab__content"
-                    : "tab__content"
-                }`}
-              >
-                <h2 className="service__title">Surge Protector</h2>
-                <Image
-                  src={SolarPannels}
                   alt="Image"
                   width="300"
                   height="300"

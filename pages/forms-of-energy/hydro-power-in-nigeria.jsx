@@ -6,6 +6,7 @@ import Slide from "react-reveal/Slide";
 //styles majorly from the about.css
 
 import hydroPower from "../../public/images/hydro-power.jpg";
+import Link from "next/link";
 
 const HydroPower = () => {
   return (
@@ -57,6 +58,13 @@ const HydroPower = () => {
                   to 50,800 GWh of electricity for Nigerians.
                 </p>
               </Slide>
+
+              <Link href="/forms-of-energy/biomass-in-nigeria">
+                <button className="energy__post__button">Biomass Energy</button>
+              </Link>
+              <Link href="/forms-of-energy/wind-energy-in-nigeria">
+                <button className="energy__post__button">Wind Energy</button>
+              </Link>
             </div>
           </div>
         </div>

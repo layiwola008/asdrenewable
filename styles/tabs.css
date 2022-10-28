@@ -22,8 +22,7 @@
     cursor: pointer;
     position: relative;
 }
-.tab:first-of-type {
-}
+
 .tab:last-of-type {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;

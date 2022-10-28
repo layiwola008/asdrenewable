@@ -154,7 +154,7 @@ export const slides = [
       id: 1,
       icon: GiSolarPower,
       title: "Residential/Home Energy",
-      desc: "Our home energy solution is fashioned to keep your home lights on through any power outage so that you can increase self-consumption, grip independence and reduce your electricity bill."
+      desc: "Our home energy solution is fashioned to keep your home lights on through any power outage so that you can increase self-consumption, grid independence and reduce your electricity bill."
     },
     {
       id: 2,
@@ -166,13 +166,13 @@ export const slides = [
       id: 3,
       icon: CgCommunity,
       title: "Community Mini Grid",
-      desc: "Rural communities that are out of grip connections owing to their geographical locations do not need to worry going forward. We partner with communities to help design, implement and generate local power to sustain their community and ease their communal life with flexible payment plans."
+      desc: "Rural communities that are out of grid connections owing to their geographical locations do not need to worry going forward. We partner with communities to help design, implement and generate local power to sustain their community and ease their communal life with flexible payment plans."
     },
     {
       id: 4,
       icon: GiFarmTractor,
       title: "Farm Zone Energy – Solar pump, Lighting",
-      desc: "In order to guarantee food security and sufficiency farms need constant power supply to run efficiently at an affordable rate. Our Farm zone energy solutions provide easy entry and flexible plans to allow farmers to make the best ROI in renewable energy."
+      desc: "In order to guarantee food security and sufficiency farms need constant power supply to run efficiently at an affordable rate. Our Farm zone energy solutions provide easy entry and flexible plans to allow farmers make the best ROI in renewable energy."
     },
     {
       id: 5,

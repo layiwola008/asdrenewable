@@ -49,49 +49,51 @@ const About = () => {
               <h2>Who Are We?</h2>
             </Slide>
             <div className="article__content">
-            <Slide bottom>
-              <strong>
-                <em>
-                  ASD emerged as a global energy solution and distribution
-                  provider, tapping into the opportunity presented in Nigeria's
-                  energy and power shortage to deliver sustainable energy,
-                  storage and consumption, including energy digitalization to
-                  power industrial, residential, farm and remote areas of the
-                  country.
-                </em>
-              </strong>
-              <br />
-              <br />
-              We aggregate different renewable technologies such as hydropower,
-              wind energy, solar energy and biomass using abundant natural
-              resources within our geographical space as a form of the energy
-              mix to create electricity on a commercial scale so as to reduce
-              Nigeria's energy gap amid increasing energy growth and demand.
-              <br />
-            </Slide>
+              <Slide bottom>
+                <strong>
+                  <em>
+                    ASD emerged as a global energy solution and distribution
+                    provider, tapping into the opportunity presented in
+                    Nigeria's energy and power shortage to deliver sustainable
+                    energy, storage and consumption, including energy
+                    digitalization to power industrial, residential, farm and
+                    remote areas of the country.
+                  </em>
+                </strong>
+                <br />
+                <br />
+                We aggregate different renewable technologies such as
+                hydropower, wind energy, solar energy and biomass using abundant
+                natural resources within our geographical space as a form of the
+                energy mix to create electricity on a commercial scale so as to
+                reduce Nigeria's energy gap amid increasing energy growth and
+                demand.
+                <br />
+              </Slide>
             </div>
           </div>
           <div className="col__md">
-          <div className="article__content">
-            <Slide bottom>
-              We source best-designed and manufactured renewable energy products
-              such as solar panels, PV inverters, and energy backup products
-              creating smart energy management systems for homes, commercial and
-              industrial end users including the design and setup of mini-grid
-              for communities in rural environments. We also undertake the
-              development of viable clean energy solutions with different
-              technologies including biomass, hydropower and wind turbines.
-              <br />
-              We are committed to continuous technology innovations driving
-              sustainable growth and adapting to market trends to provide
-              customized products to our esteemed clients in different parts of
-              the globe.
-              <br />
-              With a combined team of experienced installers, we offer an
-              unrivalled service to our happy customers, supported with
-              outstanding warranties on our energy solutions and products,
-              giving the most ROI with ASD.
-            </Slide>
+            <div className="article__content">
+              <Slide bottom>
+                We source best-designed and manufactured renewable energy
+                products such as solar panels, PV inverters, and energy backup
+                products creating smart energy management systems for homes,
+                commercial and industrial end users including the design and
+                setup of mini-grid for communities in rural environments. We
+                also undertake the development of viable clean energy solutions
+                with different technologies including biomass, hydropower and
+                wind turbines.
+                <br />
+                We are committed to continuous technology innovations driving
+                sustainable growth and adapting to market trends to provide
+                customized products to our esteemed clients in different parts
+                of the globe.
+                <br />
+                With a combined team of experienced installers, we offer an
+                unrivalled service to our happy customers, supported with
+                outstanding warranties on our energy solutions and products,
+                giving the most ROI with ASD.
+              </Slide>
             </div>
           </div>
         </div>
@@ -109,7 +111,7 @@ const About = () => {
               <div>
                 <h3>Our Vision</h3>
                 <p>
-                  To become the world’s largest producer of renewable energy by
+                  To become Africa’s foremost producer of renewable energy by
                   designing, delivering and creating an intelligent, reliable,
                   affordable and sustainable renewable energy ecosystem for
                   human kind.

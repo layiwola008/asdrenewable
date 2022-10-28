@@ -3,6 +3,7 @@ import Image from "next/image";
 import Slide from "react-reveal/Slide";
 
 import windEnergy from "../../public/images/wind-energy.jpg";
+import Link from "next/link";
 
 const WindEnergy = () => {
   return (
@@ -57,6 +58,9 @@ const WindEnergy = () => {
                   and energy potential offered.
                 </p>
               </Slide>
+
+              <Link href="/forms-of-energy/biomass-in-nigeria"><button className="energy__post__button">Biomass Energy</button></Link>
+              <Link href="/forms-of-energy/hydro-power-in-nigeria"><button className="energy__post__button">Hydro Power</button></Link>
             </div>
           </div>
         </div>
