@@ -72,3 +72,10 @@
     width: 40ch;
     margin: 20px 15px;
 }
+.other__questions {
+    margin-top: 20px;
+}
+.other__questions button {
+    background-color: #00BCB7;
+    color: white;
+}

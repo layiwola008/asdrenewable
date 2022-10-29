@@ -41,7 +41,7 @@ const Topbar = () => {
           </Link>
         </span>
         <span>
-          <Link href="#">
+          <Link href="https://twitter.com/AsdRenewables">
             <AiFillTwitterSquare className="social__icon" />
           </Link>
         </span>

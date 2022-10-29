@@ -181,3 +181,32 @@ export const slides = [
       desc: "For effective surveillance and monitoring, powering CCTV has become imperative in today’s crime-prone world. Security agencies and experts greatly depend on video recordings for effective monitoring and crime prevention. Our secure power guarantees proper and adequate power supply to camera installations regardless of their location. "
     },
   ]
+
+
+  export const faqContent = [
+    {
+      id: 1,
+      question: "What are the benefits of solar energy?",
+      answer: "Installing solar energy system on your property is a smart investment regardless of where you live. It makes you free from erratic power supply, save money on your electricity bills and protect you against future increase in electricity rates."
+    },
+    {
+      id: 2,
+      question: "How do solar photovoltaic (PV) panels work?",
+      answer: "We get alternating current (AC) from grid supply while solar panels absorb the sun's energy throughout the day and convert it into direct current (DC) electricity which converted to AC through an inverter that can be used to power your house."
+    },
+    {
+      id: 3,
+      question: "How much will solar panel maintenance cost?",
+      answer: "Solar panel systems are made of durable tempered glass and require little to no maintenance for 25 to 35 years that they will generate power. In most cases, you don’t even need to clean your solar panels regularly."
+    },
+    {
+      id: 4,
+      question: "What size solar energy system should I get?",
+      answer: "The size of your solar energy system will depend on how much electrical equipment you intend to power within your house. Take advantage of our free assessment to determine the best system size for your needs."
+    },
+    {
+      id: 5,
+      question: "How long will my solar power system last?",
+      answer: "In general, solar panels are very durable and capable of withstanding harsh environmental conditions. The various components of your solar power system will need to be replaced at different times, but your system should continue to generate electricity for up to 25 - 35 years."
+    },
+  ];

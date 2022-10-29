@@ -36,7 +36,7 @@ const howToUse = () => {
                 <div className="steps__row">
                   <div className="col__md step">
                     <h3>Step One</h3>
-                    <p>Generate Energy using your own solar panels.</p>
+                    <p>Generate energy using your own solar panels.</p>
                   </div>
                   <div className="col__md">
                     <FaSolarPanel className="step__icon" />
@@ -51,7 +51,7 @@ const howToUse = () => {
                   </div>
                   <div className="col__md step">
                     <h3>Step Two</h3>
-                    <p>Store energy generated with batteries.</p>
+                    <p>Store the energy generated with batteries.</p>
                   </div>
                 </div>
                 </Slide>
@@ -61,8 +61,8 @@ const howToUse = () => {
                   <div className="col__md step">
                     <h3>Step Three</h3>
                     <p>
-                      Avoid power outages by powering your homes and consuming
-                      energy stored.
+                      Avoid power outages by powering your home and consuming
+                      the energy stored.
                     </p>
                   </div>
                   <div className="col__md">

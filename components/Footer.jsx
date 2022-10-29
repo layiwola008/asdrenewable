@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div className="footer__div">
       <div className="left">
-        <p>Quick Contact</p>
+        <p>Quick Contacts</p>
         <Link href="/">
           <span className="logo">
             <Image
@@ -44,9 +44,12 @@ const Footer = () => {
           <Link href="https://www.facebook.com/profile.php?id=100085403510093">
             <AiFillFacebook className="social__icon" />
           </Link>
-          <AiFillTwitterSquare className="social__icon" />
+          <Link href="https://twitter.com/AsdRenewables">
+            <AiFillTwitterSquare className="social__icon" />
+          </Link>
+
           <Link href="https://www.linkedin.com/company/asdrenewables/">
-          <AiFillLinkedin className="social__icon" />
+            <AiFillLinkedin className="social__icon" />
           </Link>
         </span>
       </div>

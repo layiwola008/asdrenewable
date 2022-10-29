@@ -81,7 +81,7 @@ const contact = () => {
                 </p>
               </div>
               <div>
-                <h3>Quick Contact</h3>
+                <h3>Quick Contacts</h3>
                 <p>
                   <MdEmail /> info@asdrenewables.com
                 </p>

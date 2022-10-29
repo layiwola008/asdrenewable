@@ -3,8 +3,7 @@ import Image from "next/image";
 import {BsFillArrowRightCircleFill} from 'react-icons/bs';
 
 //This page borrows styles from the services page
-
-import AsdServices from "../../public/images/asd-rewables-services.jpg";
+import ourProducts from "../../public/images/our-products.jpg";
 
 import SolarBattery from "../../public/images/products/solar-battery.png";
 import Avr from "../../public/images/products/avr.png";
@@ -32,10 +31,10 @@ const products = () => {
     <>
       <span className="page__header">
         <Image
-          src={AsdServices}
+          src={ourProducts}
           alt="Image"
           width="1500"
-          height="500"
+          height="600"
           objectFit="cover"
         />
         <h1>Our Products</h1>
