@@ -102,7 +102,7 @@ const Navbar = () => {
           <span className="navbar__icon hide__mobile">
             <BsTelephoneFill />
           </span>
-          <span className="phone__number hide__mobile">09084000487</span>
+          <span className="phone__number hide__mobile">+2349084000487</span>
         </div>
       </div>
 
@@ -158,7 +158,7 @@ const Navbar = () => {
                   <span className="navbar__icon">
                     <BsTelephoneFill />
                   </span>
-                  <span className="phone__number">09084000487</span>
+                  <span className="phone__number">+2349084000487</span>
                 </div>
               </li>
               <li>
@@ -166,11 +166,8 @@ const Navbar = () => {
                   className="navbar__quote__mobile"
                   onClick={() => setShowMobileMenu(false)}
                 >
-                  <span className="quote__icon">
-                    <BsArrowRightCircleFill />
-                  </span>
                   <Link href="/asd-renewables/quote">
-                    <p>Get A Quote</p>
+                    <p>EXPLORE MORE</p>
                   </Link>
                 </div>
               </li>
@@ -180,11 +177,8 @@ const Navbar = () => {
 
         <div className="quote__cta__container hide__mobile">
           <div className="navbar__quote">
-            <span className="quote__icon">
-              <BsArrowRightCircleFill />
-            </span>
             <Link href="/asd-renewables/quote">
-              <p>Get A Quote</p>
+              <p>EXPLORE MORE</p>
             </Link>
           </div>
         </div>

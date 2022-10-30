@@ -23,12 +23,9 @@
     position: relative;
 }
 
-.tab:last-of-type {
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
+
 .active-tab {
-    background: #006363;
+    background: #69CC40;
     color: #fff;
     font-weight: 600;
 }
@@ -87,12 +84,12 @@
 .tab__contents button {
     width: 18%;
     background-color: #69CC40;
+    color: #fff;
     position: absolute;
     right: 35px;
     top: 20px;
 }
 .service__article {
-    font-size: 22px;
     line-height: 30px;
 }
 

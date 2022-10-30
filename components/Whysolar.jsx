@@ -15,7 +15,7 @@ const Whysolar = () => {
       <div className="whysolar__title">
         <Slide bottom>
           <h2>
-            <span>Why Must You</span> Go Solar?
+            <span>Why Must You</span> Go Green?
           </h2>
         </Slide>
       </div>

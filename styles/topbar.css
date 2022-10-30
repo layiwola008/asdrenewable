@@ -10,7 +10,7 @@
   position: fixed;
   top: 0;
   z-index: 99;
-  background-color: white;
+  background-color: #f3f3f3;
 }
 .topbar__left {
   display: flex;

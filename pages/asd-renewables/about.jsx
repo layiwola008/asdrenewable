@@ -158,7 +158,7 @@ const About = () => {
               </Slide>
             </div>
           </div>
-          <div className="row__wrap">
+          <div className="solutions__container">
             {solutions.map((solution) => {
               const Icon = solution.icon;
               return (
@@ -172,7 +172,7 @@ const About = () => {
                       <h3>{solution.title}</h3>
                       <p>{solution.desc}</p>
                       <Link href="/asd-renewables/quote">
-                        <button>Request A Quote</button>
+                        <button>Explore More</button>
                       </Link>
                     </div>
                   </div>

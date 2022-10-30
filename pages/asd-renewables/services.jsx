@@ -77,7 +77,7 @@ const services = () => {
               Data Conversion
             </div>
 
-            <div
+            {/* <div
               onClick={() => activateTab(4)}
               className={`${tab === 4 ? "tab active-tab" : "tab"}`}
             >
@@ -85,7 +85,7 @@ const services = () => {
                 <BsFillArrowRightCircleFill className="service__icon" />
               </span>
               Remote Sensing
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -215,7 +215,7 @@ const services = () => {
             </div>
           </div>
 
-          <div
+          {/* <div
             className={`${
               tab === 4 ? "tab__content active__tab__content" : "tab__content"
             }`}
@@ -251,7 +251,7 @@ const services = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
           <Link href="/asd-renewables/contact">
             <button>Contact Us</button>

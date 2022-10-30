@@ -86,7 +86,7 @@ const contact = () => {
                   <MdEmail /> info@asdrenewables.com
                 </p>
                 <p>
-                  <BsFillPhoneFill /> 09084000487
+                  <BsFillPhoneFill /> +2349084000487
                 </p>
               </div>
               <div>

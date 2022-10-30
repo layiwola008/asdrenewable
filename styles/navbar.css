@@ -11,8 +11,8 @@
   top: 40px;
   bottom: 95px;
   z-index: 99;
-  background-color: #d8d8d8;
   box-sizing: border-box;
+  background-color: #fff;
 }
 .navbar__left {
   flex: 1;
@@ -20,7 +20,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-right: 1px #d8d8d8 solid;
 }
 .navbar__middle {
   flex: 4;
@@ -82,20 +81,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-left: 1px #d8d8d8 solid;
 }
 .quote__cta__container {
   width: 100%;
 }
 .navbar__quote {
-  width: 55%;
+  width: 65%;
   height: 35px;
   padding: 0 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #00bcb7;
-  border-radius: 5px;
+  background-color: #69CC40;
   cursor: pointer;
 }
 .navbar__quote__mobile {

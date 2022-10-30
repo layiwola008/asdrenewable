@@ -53,16 +53,16 @@
   margin-bottom: 10px;
 }
 hr {
-  width: 25%;
-  height: 3px;
+  width: 35%;
+  height: 2px;
   margin-bottom: 15px;
   text-align: left;
   border: none;
   background-color: #009991;
 }
 .slider__desc p {
-  font-size: 22px;
-  max-width: 45ch;
+  font-size: 20px;
+  max-width: 50ch;
   color: white;
   margin-bottom: 20px;
 }
@@ -71,9 +71,8 @@ hr {
 }
 .slider__desc button:first-child {
   text-align: center;
-  background-color: #00bcb7;
+  background-color: #69CC40;
   width: 25%;
-  color: white;
   font-size: 15px;
 }
 .slider__btn__icon {
@@ -85,8 +84,8 @@ hr {
   background-color: #3a3a3a;
 }
 .slider__desc button:last-child {
-  background-color: #d8d8d8;
-  color: #009991;
+  background-color: #00BCB7;
+  color: #fff;
   cursor: pointer;
   width: 22%;
   font-size: 15px;

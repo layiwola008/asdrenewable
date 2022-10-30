@@ -38,7 +38,7 @@ const Footer = () => {
           <span className="icon">
             <FaHeadphonesAlt />
           </span>
-          <p>09084000487</p>
+          <p>+2349084000487</p>
         </span>
         <span className="social__media">
           <Link href="https://www.facebook.com/profile.php?id=100085403510093">
