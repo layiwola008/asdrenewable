@@ -77,9 +77,10 @@ const faq = () => {
             ))}
           </div>
           <div className="other__questions">
-          <p>Have other questions?</p>
-          <Link href="/asd-renewables/contact"><button>Contact Us</button></Link>
-          
+            <p>Have other questions?</p>
+            <Link href="/asd-renewables/contact">
+              <button>Contact Us</button>
+            </Link>
           </div>
         </div>
       </div>

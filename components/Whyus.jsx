@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import CountUp from "react-countup";
-import { BsArrowRightCircleFill } from "react-icons/bs";
+import { BsArrowRightCircleFill, BsArrowReturnRight } from "react-icons/bs";
 import Slide from "react-reveal/Slide";
 
 import WhyusImage from "../public/images/why-us-asd-renewables-02.jpg";
@@ -24,26 +24,28 @@ const WhyUs = () => {
         </div>
       </Slide>
       <div className="whyus__content">
+              <h3 className="core__values__header">Our Core Values</h3>
         <div className="whyus__row">
           <Slide bottom>
             <div className="whyus__stats">
               <div>
-                <span>
+                {/* <span>
                   <CountUp end={243} />
-                </span>
-                <p>Projects Completed In Last 5 Years</p>
-              </div>
-              <div className="float__right">
-                <span>
-                  <CountUp end={1564} />
-                </span>
-                <p>Happy Customers Who Trusted Us</p>
+                </span> */}
+                <BsArrowReturnRight className="values__icon" />
+                <p>Trust</p>
               </div>
               <div>
-                <span>
-                  <CountUp end={13} />
-                </span>
-                <p>Awards: Milestones Awarded To Us</p>
+                <BsArrowReturnRight className="values__icon" />
+                <p>Responsibility</p>
+              </div>
+              <div>
+              <BsArrowReturnRight className="values__icon" />
+                <p>Proactivity</p>
+              </div>
+              <div>
+              <BsArrowReturnRight className="values__icon" />
+                <p>Innovation</p>
               </div>
             </div>
           </Slide>
@@ -55,8 +57,8 @@ const WhyUs = () => {
               <Image
                 src={WhyusImage}
                 alt="Image"
-                width="830"
-                height="780"
+                width="800"
+                height="710"
                 objectFit="cover"
                 className="whyus__image"
               />

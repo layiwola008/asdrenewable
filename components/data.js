@@ -49,7 +49,7 @@ export const slides = [
     {
       id: 1,
       image: Whysolar,
-      header: "Why You Must Go Solar",
+      header: "Why You Must Go Green",
       paragraph:
         "Safeguard your home from the unstable power supply from the grid.",
       fBtnText: "Go Solar",

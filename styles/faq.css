@@ -1,3 +1,12 @@
+.faq__main__comtainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq__container {
+    width: 90%;
+    margin: auto;
+}
 .active__title {
     display: block;
     font-size: 21px;
@@ -8,15 +17,6 @@
 }
 .inactive {
     display: none;
-}
-.faq__main__comtainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.faq__container {
-    width: 100%;
-    margin: auto;
 }
 .faq__header__title {
     align-self: flex-start;
@@ -69,13 +69,41 @@
     width: 100%;
 }
 .faq__body p {
-    width: 70ch;
+    width: 53ch;
     margin: 20px 15px;
 }
 .other__questions {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.other__questions p {
+    margin-left: 30px;
 }
 .other__questions button {
     background-color: #00BCB7;
     color: white;
+    width: 25%;
+}
+
+
+/*IPAD PRO RESPONSIVENESS*/
+@media only screen and (max-width: 1110px) {
+  
+}
+/*Ipad Mini, Ipad, Ipad Air*/
+@media only screen and (max-width: 898px) {
+
+}
+/*Samsung Galaxy and others*/
+@media only screen and (max-width: 466px) {
+    .other__questions {
+        display: flex;
+        flex-direction: column;
+    }
+    .other__questions button {
+        align-self: flex-start;
+        margin: 20px;
+    }
 }

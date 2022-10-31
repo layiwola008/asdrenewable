@@ -46,8 +46,7 @@ const solutionsPage = () => {
               const Icon = solution.icon;
               return (
                 <Slide bottom>
-                  <div id={solution.identifier} className="solution" key={solution.id}>
-                    <div>
+                  <div id={solution.identifier} className="solution" key={solution.id}>                  
 
                     <hr />
                     <span>
@@ -60,7 +59,7 @@ const solutionsPage = () => {
                         <button>Explore More</button>
                       </Link>
                     </div>
-                    </div>
+                    
                   </div>
                 </Slide>
               );

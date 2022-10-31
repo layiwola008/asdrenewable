@@ -35,7 +35,7 @@ export default function App() {
             <Image
               src={slide.image}
               alt="Image"
-              height="750"
+              height="600"
               className="slider__image"
             />
             <div className="slider__desc">
