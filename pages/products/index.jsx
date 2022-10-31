@@ -34,7 +34,7 @@ const products = () => {
           src={ourProducts}
           alt="Image"
           width="1500"
-          height="600"
+          height="500"
           objectFit="cover"
         />
         <h1>Our Products</h1>

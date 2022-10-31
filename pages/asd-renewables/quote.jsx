@@ -53,16 +53,15 @@ const quote = () => {
           height="700"
           objectFit="cover"
         />
-        <h1>Request A Quote</h1>
+        <h1>Request an Assessment</h1>
       </span>
       <div className="page__wrapper">
         <div className="col">
           <Slide bottom>
             <div className="quote__desc">
-              <h2>Request a Quote</h2>
+              <h2>Fill In The Request Form</h2>
               <p>
-                Please fill in the form below and we will respond in 48 hours
-                with a quote(s) for your system.
+                Please fill in the form below and we will respond in 48 hours.
               </p>
             </div>
           </Slide>
@@ -154,7 +153,7 @@ const quote = () => {
                     </span>
                   </div>
                   <button type="submit" className="button">
-                    Request Quote
+                    Send Your Request Now!
                   </button>
                 </form>
                 <ToastContainer />

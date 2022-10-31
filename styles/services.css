@@ -13,6 +13,7 @@
 .services__header p {
     width: 55ch;
     line-height: 30px;
+    text-align: center;
 }
 .service__article {
     width: 50ch;

@@ -13,6 +13,7 @@
 }
 .quote__desc p {
   width: 45ch;
+  text-align: center;
 }
 
 .form {
