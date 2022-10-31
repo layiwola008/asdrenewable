@@ -63,7 +63,7 @@ const Whysolar = () => {
                 years of trouble-free service.
               </p>
             <Link href="/asd-renewables/quote">
-              <button>Go Solar Now</button>
+              <button>Go Green Now</button>
             </Link>
           </article>
         </div>

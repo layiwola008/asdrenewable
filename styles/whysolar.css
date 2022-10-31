@@ -78,9 +78,10 @@
   margin: 15px 0;
 }
 .whysolar__warranty button {
-  width: 30%;
-  margin-top: 20px;
+  background-color: #69cc40;
   color: white;
+  margin-top: 20px;
+  width: 30%;
 }
 /*Why Solar End*/
 

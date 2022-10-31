@@ -23,7 +23,7 @@ const Energyforms = () => {
               sustainable energy ecosystem in the most creative and productive
               ways for our clients so they can benefit from sustainable energy.
             </p>
-            <Link href="/asd-renewables/about#solutions">
+            <Link href="/asd-renewables/solutions">
               <button>Explore Solutions</button>
             </Link>
           </div>

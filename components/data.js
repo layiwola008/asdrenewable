@@ -54,7 +54,7 @@ export const slides = [
         "Safeguard your home from the unstable power supply from the grid.",
       fBtnText: "Go Solar",
       fBtnLinK: "asd-renewables/quote",
-      sBtnText: "View Products",
+      sBtnText: "See Products",
       sBtnLink: "/products",
     },
     {
@@ -66,7 +66,7 @@ export const slides = [
       fBtnText: "Read More",
       fBtnLinK: "/how-solar-energy-works",
       sBtnText: "Get Solution",
-      sBtnLink: "/asd-renewables/about#solutions",
+      sBtnLink: "/asd-renewables/solutions",
     },
     {
       id: 3,
@@ -97,7 +97,7 @@ export const slides = [
       paragraph:
         "ASD leverages the opportunity presented in Nigeria's shortages to deliver sustainable energy.",
       fBtnText: "Our Solutions",
-      fBtnLinK: "/asd-renewables/about#solutions",
+      fBtnLinK: "/asd-renewables/solutions",
       sBtnText: "Let's Partner",
       sBtnLink: "/asd-renewables/contact",
     },
@@ -119,7 +119,7 @@ export const slides = [
       paragraph:
         "We harness hydro-power, wind energy, solar energy and biomass to fill Nigeria's energy gaps.",
       fBtnText: "Our Solutions",
-      fBtnLinK: "/asd-renewables/about#solutions",
+      fBtnLinK: "/asd-renewables/solutions",
       sBtnText: "Get Solution",
       sBtnLink: "/asd-renewables/quote",
     },
