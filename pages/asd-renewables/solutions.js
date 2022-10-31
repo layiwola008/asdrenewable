@@ -27,7 +27,7 @@ const solutionsPage = () => {
           <div className="row">
             <div className="col__md">
               <Slide bottom>
-                <h2>We Offer Solutions For:</h2>
+                <h2>Renewable Offers:</h2>
               </Slide>
             </div>
             <div className="col__md">
@@ -56,7 +56,7 @@ const solutionsPage = () => {
                       <h3>{solution.title}</h3>
                       <p>{solution.desc}</p>
                       <Link href="/asd-renewables/quote">
-                        <button>Explore More</button>
+                        <button>Request an Assessment</button>
                       </Link>
                     </div>
                     

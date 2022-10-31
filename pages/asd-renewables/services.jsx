@@ -192,7 +192,7 @@ const services = () => {
                   <br />
                   <br />
                   <div className="list__space">
-                    <ul>
+                    <ul className="services__list">
                       <li>Hardcopy Maps</li>
                       <li>GIS Data Format (ESRI Format / MapInfo Format)</li>
                       <li>AutoCAD Drawings</li>

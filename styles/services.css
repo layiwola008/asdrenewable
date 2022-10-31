@@ -35,6 +35,9 @@
         width: 52ch;
         font-size: 23px;
     }
+    .services__list li {
+        font-size: 21px;
+    }
 }
 /*Ipad Mini, Ipad, Ipad Air*/
 @media only screen and (max-width: 898px) {

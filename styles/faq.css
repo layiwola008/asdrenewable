@@ -22,6 +22,7 @@
     align-self: flex-start;
     margin-left: 0;
     color: #00BCB7;
+    
 }
 .container {
     width: 100%;
@@ -69,7 +70,7 @@
     width: 100%;
 }
 .faq__body p {
-    width: 53ch;
+    width: 65ch;
     margin: 20px 15px;
 }
 .other__questions {
@@ -94,7 +95,10 @@
 }
 /*Ipad Mini, Ipad, Ipad Air*/
 @media only screen and (max-width: 898px) {
-
+    .faq__body p {
+        width: 57ch;
+        margin: 20px 15px;
+    }
 }
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
@@ -105,5 +109,9 @@
     .other__questions button {
         align-self: flex-start;
         margin: 20px;
+    }
+    .faq__body p {
+        width: 52ch;
+        margin: 20px 15px;
     }
 }

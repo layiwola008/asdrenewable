@@ -170,6 +170,9 @@
     cursor: pointer;
     margin-right: 40px;
   }
+  .navbar__quote__mobile {
+    width: 40%;
+  }
 }
 
 /*Ipad Mini, Ipad, Ipad Air*/
