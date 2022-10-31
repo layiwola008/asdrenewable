@@ -57,19 +57,19 @@ const Footer = () => {
         <span>
           <p>Solutions</p>
           <ul>
-            <Link href="/asd-renewables/about#solutions">
+            <Link href="/asd-renewables/solutions">
               <li>Residential</li>
             </Link>
-            <Link href="/asd-renewables/about#solutions">
+            <Link href="/asd-renewables/solutions">
               <li>Industrial</li>
             </Link>
-            <Link href="/asd-renewables/about#solutions">
+            <Link href="/asd-renewables/solutions">
               <li>Security</li>
             </Link>
-            <Link href="/asd-renewables/about#solutions">
+            <Link href="/asd-renewables/solutions">
               <li>Farm Zone Energy</li>
             </Link>
-            <Link href="/asd-renewables/about#solutions">
+            <Link href="/asd-renewables/solutions">
               <li>Community Mini Grid</li>
             </Link>
             <Link href="/how-solar-energy-works">

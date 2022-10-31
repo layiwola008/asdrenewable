@@ -57,7 +57,7 @@ const Navbar = () => {
               About Us
             </li>
           </Link>
-          <Link href="/asd-renewables/about#solutions">
+          <Link href="/asd-renewables/solutions">
             <li
               className={
                 page === 3 ? "active__page hide__mobile" : "hide__mobile"
@@ -123,7 +123,7 @@ const Navbar = () => {
               <Link href="/asd-renewables/about">
                 <li onClick={() => setShowMobileMenu(false)}>About Us</li>
               </Link>
-              <Link href="/asd-renewables/about#solutions">
+              <Link href="/asd-renewables/solutions">
                 <li onClick={() => setShowMobileMenu(false)}>Solutions</li>
               </Link>
               <Link href="/asd-renewables/services">

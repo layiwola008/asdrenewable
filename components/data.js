@@ -12,7 +12,7 @@ import {GiFarmTractor} from 'react-icons/gi';
 
 //Slide Show Images
 import HowToUseSolar from "../public/images/how-to-use-solar.jpg";
-import HowSolarWorks from "../public/images/how-solar-works.jpg";
+import HowSolarWorks from "../public/images/solar-energy-storage.jpg";
 import Whysolar from "../public/images/why-go-solar.jpg";
 import Slider01 from "../public/images/slider01.jpg";
 import Slider02 from "../public/images/slider02.jpg";
@@ -152,30 +152,35 @@ export const slides = [
   export const solutions = [
     {
       id: 1,
+      identifier: "residentialSolution",
       icon: GiSolarPower,
       title: "Residential/Home Energy",
       desc: "Our home energy solution is fashioned to keep your home lights on through any power outage so that you can increase self-consumption, grid independence and reduce your electricity bill."
     },
     {
       id: 2,
+      identifier: "commercialSolution",
       icon: MdOutlineBusiness,
       title: "Commercial and Industrial Energy",
       desc: "Businesses require constant energy to ensure continuity and high productivity. We have developed a flexible business model energy solution to make it easier for you to transition to solar energy systems without breaking your bank account."
     },
     {
       id: 3,
+      identifier: "communitySolution",
       icon: CgCommunity,
       title: "Community Mini Grid",
       desc: "Rural communities that are out of grid connections owing to their geographical locations do not need to worry going forward. We partner with communities to help design, implement and generate local power to sustain their community and ease their communal life with flexible payment plans."
     },
     {
       id: 4,
+      identifier: "farmSolution",
       icon: GiFarmTractor,
       title: "Farm Zone Energy – Solar pump, Lighting",
       desc: "In order to guarantee food security and sufficiency farms need constant power supply to run efficiently at an affordable rate. Our Farm zone energy solutions provide easy entry and flexible plans to allow farmers make the best ROI in renewable energy."
     },
     {
       id: 5,
+      identifier: "securitySolution",
       icon: GiCctvCamera,
       title: "Security: Solar-Powered Surveillance Camera",
       desc: "For effective surveillance and monitoring, powering CCTV has become imperative in today’s crime-prone world. Security agencies and experts greatly depend on video recordings for effective monitoring and crime prevention. Our secure power guarantees proper and adequate power supply to camera installations regardless of their location. "
