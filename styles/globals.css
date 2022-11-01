@@ -72,10 +72,11 @@ button:hover {
 .full__container {
   width: 100%;
   height: 130vh;
-  margin-top: 40px;
+  margin: 40px 0;
   padding: 1px 100px;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
 }
 /*Forms Of Energy Start*/
 .page__header {

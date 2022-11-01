@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 }
 .faq__container {
     width: 90%;
@@ -20,6 +21,7 @@
 }
 .faq__header__title {
     align-self: flex-start;
+    text-align: center;
     margin-left: 0;
     color: #00BCB7;
     
@@ -78,14 +80,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 85%;
 }
 .other__questions p {
-    margin-left: 30px;
+margin-left: 30px;
 }
 .other__questions button {
     background-color: #00BCB7;
     color: white;
-    width: 25%;
+    width: 25%
 }
 
 
@@ -102,14 +105,6 @@
 }
 /*Samsung Galaxy and others*/
 @media only screen and (max-width: 466px) {
-    .other__questions {
-        display: flex;
-        flex-direction: column;
-    }
-    .other__questions button {
-        align-self: flex-start;
-        margin: 20px;
-    }
     .faq__body p {
         width: 52ch;
         margin: 20px 15px;

@@ -107,19 +107,48 @@ const services = () => {
                 <article className="service__article">
                   ASD Renewables undertakes and executes geospatial projects for
                   clients of any size. We specialize in GIS and RS Geospatial
-                  Solutions.
+                  Solutions. As part of our effort, we aim at grasping new
+                  heights and keeping abreast with the latest technologies to
+                  provide reliable geospatial solutions with advanced hardware
+                  and software to the nation. We provide accurate surveying
+                  services of high resolution and medium resolution optical
+                  satellite imagery from Maxar Technologies, airborne radar
+                  (IfSAR) data and LiDAR with integration of valuable geospatial
+                  data.
                   <br />
                   <br />
-                  As part of our effort, we aim at grasping new heights, keeping
-                  abreast with the latest technologies to provide reliable
-                  geospatial solutions with advanced hardware and software to
-                  the nation.
+                  The collected imagery can be efficiently processed to generate
+                  digital surface models, topography and imagery data products
+                  to integrate into both CAD and GIS systems for Oil and Gas,
+                  Land and Maritime Surveillance, National Mapping, Aeronautical
+                  Information and Precision Farming markets use.
                   <br />
                   <br />
-                  We provide accurate surveying services of high resolution and
-                  medium resolution optical satellite imagery from Maxar
-                  Technologies, airborne radar (IfSAR) data and LiDAR with
-                  integration of valuable geospatial data.
+                  ASD also offers a comprehensive Remote Sensing and GIS
+                  services through Ground Survey Method, Satellite Image
+                  Processing and Analysis. We provide consulting services to
+                  assist clients in project development during design, planning,
+                  analysis, implementation and evaluation phases. We provide all
+                  ranges of topography and mapping services. We have experience
+                  in a variety of field that include but are not limited to:
+                  <br />
+                  <br />
+                  <div className="list__space">
+                  <ol>
+                    <li>Aerial & UAV mapping</li>
+                    <li>
+                      Topographical survey and mapping in scale 1:500 – 1:10 000
+                    </li>
+                    <li>As built surveys</li>
+                    <li>
+                      Volume calculating to measure the amount of material to be
+                      removed from the site and added to the site (cut and fill)
+                    </li>
+                    <li>Boundary Surveys</li>
+                    <li>Cartographic and GIS-projects</li>
+                    <li>3D - modeling</li>
+                  </ol>
+                  </div>
                 </article>
               </div>
               <div className="col__md">

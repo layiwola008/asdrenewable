@@ -32,7 +32,7 @@ const faq = () => {
         <h1>Frequently Asked Questions</h1>
       </span>
       <div className="page__wrapper faq__main__comtainer">
-        <div className="col services__header">
+        <div className="col">
           <h2 className="faq__header__title">
             Let Us Answer Some Of Your Questions
           </h2>
