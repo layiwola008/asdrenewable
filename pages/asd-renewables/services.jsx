@@ -133,25 +133,37 @@ const services = () => {
                   in a variety of field that include but are not limited to:
                   <br />
                   <br />
-                  <div className="list__space">
-                  <ol>
-                    <li>Aerial & UAV mapping</li>
-                    <li>
-                      Topographical survey and mapping in scale 1:500 – 1:10 000
-                    </li>
-                    <li>As built surveys</li>
-                    <li>
-                      Volume calculating to measure the amount of material to be
-                      removed from the site and added to the site (cut and fill)
-                    </li>
-                    <li>Boundary Surveys</li>
-                    <li>Cartographic and GIS-projects</li>
-                    <li>3D - modeling</li>
-                  </ol>
-                  </div>
                 </article>
               </div>
               <div className="col__md">
+                <article className="service__article">
+                  <br />
+                  We provide all ranges of topography and mapping services. We
+                  have experience in a variety of field that include but are not
+                  limited to:
+                  <br />
+                  <br />
+                  <div className="list__space">
+                    <ol>
+                      <li>Aerial & UAV mapping</li>
+                      <li>
+                        Topographical survey and mapping in scale 1:500 – 1:10
+                        000
+                      </li>
+                      <li>As built surveys</li>
+                      <li>
+                        Volume calculating to measure the amount of material to
+                        be removed from the site and added to the site (cut and
+                        fill)
+                      </li>
+                      <li>Boundary Surveys</li>
+                      <li>Cartographic and GIS-projects</li>
+                      <li>3D - modeling</li>
+                    </ol>
+                  </div>
+                  <br />
+                  <br />
+                </article>
                 <Image
                   src={GisImage}
                   alt="Image"
